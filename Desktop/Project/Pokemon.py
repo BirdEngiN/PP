@@ -1,6 +1,4 @@
 #Pokemon
-
-p1 = input("Choose your Pokemon!! : ")
 Pokemon =   {
             "Bulbasaur":
                 {'Hp':45,'Atk':49,'Def':49,'Sp.Atk':65,'Sp.Def':65,'Speed':45,'Type':['Grass','Poison'],
@@ -283,8 +281,147 @@ Pokemon =   {
                 'Mirror Move':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Air Slash':{'Type':"Flying",'cat':"special",'pwr':75,'acc':95,'pp':35},
                 'Hurricane':{'Type':"Flying",'cat':"special",'pwr':110,'acc':70,'pp':35}
-                }}
+                }},
+            "Rattata":
+            "Raticate":
+            "Spearow":
+            "Fearow":
+            "Ekans":
+            "Arbok":
+            "Pikachu":
+            "Raichu":
+            "Sandshrew":
+            "Sandslash":
+            "NidoranF":
+            "Nidorina":
+            "Nidoqueen":
+            "NidoranM":
+            "Nidorino":
+            "Nidoking":
+            "Clefairy":
+            "Clefable":
+            "Vulpix":
+            "Ninetales":
+            "Jigglypuff":
+            "Wigglytuff":
+            "Zubat":
+            "Golbat":
+            "Oddish":
+            "Gloom":
+            "Vileplume":
+            "Paras":
+            "Parasect":
+            "Venonat":
+            "Venomoth":
+            "Diglett":
+            "Dugtrio":
+            "Meowth":
+            "Persian":
+            "Psyduck":
+            "Golduck":
+            "Mankey":
+            "Primeape":
+            "Growlithe":
+            "Arcanine":
+            "Poliwag":
+            "Poliwrath":
+            "Abra":
+            "Kadabra":
+            "Alakazam":
+            "Machop":
+            "Machoke":
+            "Machamp":
+            "Bellsprout":
+            "Weepinbell":
+            "Victreebel":
+            "Tentacoll":
+            "Tentacruel":
+            "Geodude":
+            "Graveler":
+            "Golem":
+            "Ponyta":
+            "Rapidash":
+            "Slowpoke":
+            "Slowbro":
+            "Magnemite":
+            "Magneton":
+            "Farfetch'd":
+            "Doduo":
+            "Dodrio":
+            "Seel":
+            "Dewgong":
+            "Grimer":
+            "Muk":
+            "Shellder":
+            "Cloyster":
+            "Gastly":
+            "Haunter":
+            "Gengar":
+            "Onix":
+            "Drowzee":
+            "Hypno":
+            "Krabby":
+            "Kingler":
+            "Voltorb":
+            "Electrode":
+            "Exeggcute":
+            "Exeggutor":
+            "Cubone":
+            "Marowak":
+            "Hitmonlee":
+            "Hitmonchan":
+            "Lickitung":
+            "Koffing":
+            "Weezing":
+            "Rhyhorn":
+            "Rhydon":
+            "Chansey":
+            "Tangela":
+            "Kangaskhan":
+            "Horsea":
+            "Goldeen":
+            "Seaking":
+            "Staryu":
+            "Starmie":
+            "Mr.Mime":
+            "Scyther":
+            "Jynx":
+            "Electabuzz":
+            "Magmar":
+            "Pinsir":
+            "Tauros":
+            "Magikarp":
+            "Gyrados":
+            "Lapras":
+            "Ditto":
+            "Eevee":
+            "Vaporeon":
+            "Jolteon":
+            "Flareon":
+            "Porygon":
+            "Omanyte":
+            "Omastar":
+            "Kabuto":
+            "Kabutops":
+            "Aerodactyl":
+            "Snorlax":
+            "Articuno":
+            "Zapdos":
+            "Moltres":
+            "Dratini":
+            "Dragonair":
+            "Dragonite":
+            "Mewtwo":
+            "Mew":
 }
+##==================================================
+def Battle(p1,p2):
+    
+    Priority = []
+    Priority.append(Pokemon[p1]['Speed'],Pokemon[p2]['Speed'])
+##==================================================
+'''
+p1 = input("Choose your Pokemon!! : ")
 print('You have choose',p1)
 print('Stats:')
 print('HP :',Pokemon[p1]['Hp'])
@@ -294,12 +431,36 @@ print('Sp.Atk :',Pokemon[p1]['Sp.Atk'])
 print('Sp.Def :',Pokemon[p1]['Sp.Def'])
 print('Speed :',Pokemon[p1]['Speed'])
 print('Moves :')
-moves = Pokemon[p1]['Moves'].keys()
-for i in (moves):
+moves1 = Pokemon[p1]['Moves'].keys()
+for i in (moves1):
     print(i)
 print('Please choose 4 moves for your Pokemon.')
-movech =[]
+movech1 =[]
 for j in range(4):
     move = input('')
-    movech.append(move)
-print(movech)
+    movech1.append(move)
+print(p1)
+print(movech1)
+##==================================================
+p2 = input("Choose your opponent Pokemon!! : ")
+print('You have choose',p2)
+print('Stats:')
+print('HP :',Pokemon[p2]['Hp'])
+print('Atk :',Pokemon[p2]['Atk'])
+print('Def :',Pokemon[p2]['Def'])
+print('Sp.Atk :',Pokemon[p2]['Sp.Atk'])
+print('Sp.Def :',Pokemon[p2]['Sp.Def'])
+print('Speed :',Pokemon[p2]['Speed'])
+print('Moves :')
+moves2 = Pokemon[p2]['Moves'].keys()
+for i in (moves2):
+    print(i)
+print('Please choose 4 moves for your Pokemon.')
+movech2 =[]
+for j in range(4):
+    move = input('')
+    movech2.append(move)
+print(movech2)
+'''
+##====================================================
+    
