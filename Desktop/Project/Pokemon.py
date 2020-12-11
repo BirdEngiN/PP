@@ -1,7 +1,11 @@
 #Pokemon
+import tkinter as tk
+import random
 Pokemon =   {
             "Bulbasaur":
-                {'Hp':45,'Atk':49,'Def':49,'Sp.Atk':65,'Sp.Def':65,'Speed':45,'Type':['Grass','Poison'],
+                {'Hp':45,'Atk':49,'Def':49,'Sp.Atk':65,'Sp.Def':65,'Speed':45,
+                'Type':['Grass','Poison'],'Weakness':{'Flying':2,'Fire':2,'Psychic':2,'Ice':2},
+                'Immune':{},'Resistant':{'Fighting':1/2,'Water':1/2,'Grass':1/4,'Electric':1/2},
                 'Moves':{
                     'Tackle':{'Type':'Normal','cat':'physical','pwr':40,'acc':100,'pp':35},
                     'Growl':{'Type':'Normal','cat':'status','pwr':0,'acc':100,'pp':40},
@@ -20,7 +24,9 @@ Pokemon =   {
                     'Solar Beam':{'Type':'Grass','cat':'special','pwr':120,'acc':100,'pp':10}
                 }},
                 "Ivysaur":
-                {'Hp':60,'Atk':62,'Def':63,'Sp.Atk':80,'Sp.Def':80,'Speed':60,'Type':['Grass','Poison'],
+                {'Hp':60,'Atk':62,'Def':63,'Sp.Atk':80,'Sp.Def':80,'Speed':60,
+                'Type':['Grass','Poison'],'Weakness':{'Flying':2,'Fire':2,'Psychic':2,'Ice':2},
+                'Immune':{},'Resistant':{'Fighting':1/2,'Water':1/2,'Grass':1/4,'Electric':1/2},
                 'Moves':{
                     'Tackle':{'Type':'Normal','cat':'physical','pwr':40,'acc':100,'pp':35},
                     'Growl':{'Type':'Normal','cat':'status','pwr':0,'acc':100,'pp':40},
@@ -39,7 +45,9 @@ Pokemon =   {
                     'Solar Beam':{'Type':'Grass','cat':'special','pwr':120,'acc':100,'pp':10}
                 }},
                 "Venusaur":
-                {'Hp':80,'Atk':82,'Def':83,'Sp.Atk':100,'Sp.Def':100,'Speed':80,'Type':['Grass','Poison'],
+                {'Hp':80,'Atk':82,'Def':83,'Sp.Atk':100,'Sp.Def':100,'Speed':80,
+                'Type':['Grass','Poison'],'Weakness':{'Flying':2,'Fire':2,'Psychic':2,'Ice':2},
+                'Immune':{},'Resistant':{'Fighting':1/2,'Water':1/2,'Grass':1/4,'Electric':1/2},
                 'Moves':{
                     'Petal Blizzard':{'Type':'Grass','cat':'physical','pwr':90,'acc':100,'pp':15},
                     'Petal Dance':{'Type':'Grass','cat':'special','pwr':120,'acc':100,'pp':10},
@@ -60,7 +68,9 @@ Pokemon =   {
                     'Solar Beam':{'Type':'Grass','cat':'special','pwr':120,'acc':100,'pp':10}
                 }},
             "Charmander":
-                {'Hp':39,'Atk':52,'Def':43,'Sp.Atk':60,'Sp.Def':50,'Speed':65,'Type':['Fire'],
+                {'Hp':39,'Atk':52,'Def':43,'Sp.Atk':60,'Sp.Def':50,'Speed':65,
+                'Type':['Fire'],'Weakness':{'Ground':2,'Rock':2,'Water':2},
+                'Immune':{},'Resistant':{'Bug':1/2,'Steel':1/2,'Fire':1/2,'Grass':1/2,'Ice':1/2},
                 'Moves':{
                 'Scratch':{'Type':'Normal','cat':'physical','pwr':40,'acc':100,'pp':35},
                 'Growl':{'Type':'Normal','cat':'status','pwr':0,'acc':100,'pp':40},
@@ -76,7 +86,9 @@ Pokemon =   {
                 'Flare Blitz':{'Type':'Fire','cat':'physical','pwr':120,'acc':100,'pp':15}
                 }},
             "Charmeleon":
-                {'Hp':58,'Atk':64,'Def':58,'Sp.Atk':80,'Sp.Def':65,'Speed':80,'Type':['Fire'],
+                {'Hp':58,'Atk':64,'Def':58,'Sp.Atk':80,'Sp.Def':65,'Speed':80,
+                'Type':['Fire'],'Weakness':{'Ground':2,'Rock':2,'Water':2},
+                'Immune':{},'Resistant':{'Bug':1/2,'Steel':1/2,'Fire':1/2,'Grass':1/2,'Ice':1/2},
                 'Moves':{
                 'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Growl':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':40},
@@ -92,7 +104,9 @@ Pokemon =   {
                 'Flare Blitz':{'Type':"Fire",'cat':"physical",'pwr':120,'acc':100,'pp':15}
                 }},
             "Charizard":
-                {'Hp':78,'Atk':84,'Def':78,'Sp.Atk':109,'Sp.Def':85,'Speed':100,'Type':['Fire','Flying'],
+                {'Hp':78,'Atk':84,'Def':78,'Sp.Atk':109,'Sp.Def':85,'Speed':100,
+                'Type':['Fire','Flying'],'Weakness':{'Ground':2,'Rock':2,'Water':2},
+                'Immune':{},'Resistant':{'Bug':1/2,'Steel':1/2,'Fire':1/2,'Grass':1/2,'Ice':1/2},
                 'Moves':{
                 'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Growl':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':40},
@@ -111,7 +125,9 @@ Pokemon =   {
                 'Heat Wave':{'Type':"Fire",'cat':"special",'pwr':950,'acc':90,'pp':10}
                 }},
             "Squirtle":
-                {'Hp':44,'Atk':48,'Def':65,'Sp.Atk':50,'Sp.Def':64,'Speed':43,'Type':['Water'],
+                {'Hp':44,'Atk':48,'Def':65,'Sp.Atk':50,'Sp.Def':64,'Speed':43,
+                'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
+                'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
                 'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Tail Whip':{'Type':'Normal','cat':'status','pwr':0,'acc':100,'pp':30},
@@ -129,7 +145,9 @@ Pokemon =   {
                 'Skull Bash':{'Type':"Normal",'cat':"physical",'pwr':130,'acc':100,'pp':10}
                 }},
             "Wartortle":
-                {'Hp':59,'Atk':63,'Def':80,'Sp.Atk':65,'Sp.Def':80,'Speed':58,'Type':['Water'],
+                {'Hp':59,'Atk':63,'Def':80,'Sp.Atk':65,'Sp.Def':80,'Speed':58,
+                'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
+                'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
                 'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Tail Whip':{'Type':'Normal','cat':'status','pwr':0,'acc':100,'pp':30},
@@ -147,7 +165,9 @@ Pokemon =   {
                 'Skull Bash':{'Type':"Normal",'cat':"physical",'pwr':130,'acc':100,'pp':10}
                 }},
             "Blastoise":
-                {'Hp':79,'Atk':83,'Def':100,'Sp.Atk':85,'Sp.Def':105,'Speed':78,'Type':['Water'],
+                {'Hp':79,'Atk':83,'Def':100,'Sp.Atk':85,'Sp.Def':105,'Speed':78,
+                'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
+                'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
                 'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Tail Whip':{'Type':'Normal','cat':'status','pwr':0,'acc':100,'pp':30},
@@ -166,19 +186,25 @@ Pokemon =   {
                 'Flash Cannon':{'Type':"Steel",'cat':"special",'pwr':80,'acc':100,'pp':10},
                 }},
             "Caterpie":
-            {'Hp':45,'Atk':30,'Def':35,'Sp.Atk':20,'Sp.Def':20,'Speed':45,'Type':['Bug'],
+                {'Hp':45,'Atk':30,'Def':35,'Sp.Atk':20,'Sp.Def':20,'Speed':45,
+                'Type':['Bug'],'Weakness':{'Flying':2,'Rock':2,'Fire':2},
+                'Immune':{},'Resistant':{'Fighting':1/2,'Ground':1/2,'Grass':1/2},
                 'Moves':{
                 'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'String Shot':{'Type':"Bug",'cat':"status",'pwr':0,'acc':95,'pp':40},
                 'Bug Bite':{'Type':"Bug",'cat':"physical",'pwr':60,'acc':100,'pp':20}
                 }},
             "Metapod":
-            {'Hp':50,'Atk':20,'Def':55,'Sp.Atk':25,'Sp.Def':25,'Speed':30,'Type':['Bug'],
+                {'Hp':50,'Atk':20,'Def':55,'Sp.Atk':25,'Sp.Def':25,'Speed':30,
+                'Type':['Bug'],'Weakness':{'Flying':2,'Rock':2,'Fire':2},
+                'Immune':{},'Resistant':{'Fighting':1/2,'Ground':1/2,'Grass':1/2},
                 'Moves':{
                 'Harden':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30}
                 }},
             "Butterfree":
-            {'Hp':60,'Atk':45,'Def':50,'Sp.Atk':80,'Sp.Def':80,'Speed':70,'Type':['Bug','Flying'],
+                {'Hp':60,'Atk':45,'Def':50,'Sp.Atk':80,'Sp.Def':80,'Speed':70,
+                'Type':['Bug','Flying'],'Weakness':{'Flying':2,'Rock':4,'Fire':2,'Electric':2,'Ice':2},
+                'Immune':{'Ground':0},'Resistant':{'Fighting':1/4,'Bug':1/2,'Grass':1/4},
                 'Moves':{
                 'Gust':{'Type':"Flying",'cat':"special",'pwr':40,'acc':100,'pp':35},
                 'Harden':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
@@ -200,19 +226,25 @@ Pokemon =   {
                 'Quilver Dance':{'Type':"Bug",'cat':"status",'pwr':0,'acc':100,'pp':20},
                 }},
             "Weedle":
-            {'Hp':40,'Atk':35,'Def':30,'Sp.Atk':20,'Sp.Def':20,'Speed':50,'Type':['Bug','Poison'],
+                {'Hp':40,'Atk':35,'Def':30,'Sp.Atk':20,'Sp.Def':20,'Speed':50,
+                'Type':['Bug','Poison'],'Weakness':{'Flying':2,'Rock':2,'Fire':2,'Psychic':2},
+                'Immune':{},'Resistant':{'Fighting':1/4,'Poison':1/2,'Grass':1/4,'Bug':1/2},
                 'Moves':{
                 'Poison Sting':{'Type':"Poison",'cat':"physical",'pwr':15,'acc':100,'pp':35},
                 'String Shot':{'Type':"Bug",'cat':"status",'pwr':0,'acc':95,'pp':40},
                 'Bug Bite':{'Type':"Bug",'cat':"physical",'pwr':60,'acc':100,'pp':20}
                 }},
             "Kakuna":
-            {'Hp':45,'Atk':25,'Def':50,'Sp.Atk':25,'Sp.Def':25,'Speed':35,'Type':['Bug','Poison'],
+                {'Hp':45,'Atk':25,'Def':50,'Sp.Atk':25,'Sp.Def':25,'Speed':35,
+                'Type':['Bug','Poison'],'Weakness':{'Flying':2,'Rock':2,'Fire':2,'Psychic':2},
+                'Immune':{},'Resistant':{'Fighting':1/4,'Poison':1/2,'Grass':1/4,'Bug':1/2},
                 'Moves':{
                 'Harden':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30}
                 }},
             "Beedrill":
-            {'Hp':65,'Atk':80,'Def':40,'Sp.Atk':45,'Sp.Def':80,'Speed':75,'Type':['Bug','Poison'],
+                {'Hp':65,'Atk':80,'Def':40,'Sp.Atk':45,'Sp.Def':80,'Speed':75,
+                'Type':['Bug','Poison'],'Weakness':{'Flying':2,'Rock':2,'Fire':2,'Psychic':2},
+                'Immune':{},'Resistant':{'Fighting':1/4,'Poison':1/2,'Grass':1/4,'Bug':1/2},
                 'Moves':{
                 'Twineedle':{'Type':"Bug",'cat':"physical",'pwr':25,'acc':100,'pp':20},
                 'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
@@ -229,7 +261,9 @@ Pokemon =   {
                 'Fell Stinger':{'Type':"Bug",'cat':"physical",'pwr':50,'acc':100,'pp':25}
                 }},
             "Pidgey":
-            {'Hp':40,'Atk':45,'Def':40,'Sp.Atk':35,'Sp.Def':35,'Speed':56,'Type':['Normal','Flying'],
+                {'Hp':40,'Atk':45,'Def':40,'Sp.Atk':35,'Sp.Def':35,'Speed':56,
+                'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
+                'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
                 'Moves':{
                 'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Sand Attack':{'Type':"Ground",'cat':"status",'pwr':0,'acc':100,'pp':35},
@@ -238,7 +272,7 @@ Pokemon =   {
                 'Whirlwind':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':35},
                 'Feather Dance':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
-                'Agility':{'Type':"Agility",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Agility':{'Type':"Psychic",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Wing Attack':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':35},
                 'Roost':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Tailwind':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
@@ -247,7 +281,9 @@ Pokemon =   {
                 'Hurricane':{'Type':"Flying",'cat':"special",'pwr':110,'acc':70,'pp':35}
                 }},                
             "Pidgeotto":
-            {'Hp':63,'Atk':60,'Def':55,'Sp.Atk':50,'Sp.Def':50,'Speed':71,'Type':['Normal','Flying'],
+                {'Hp':63,'Atk':60,'Def':55,'Sp.Atk':50,'Sp.Def':50,'Speed':71,
+                'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
+                'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
                 'Moves':{
                 'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Sand Attack':{'Type':"Ground",'cat':"status",'pwr':0,'acc':100,'pp':35},
@@ -256,7 +292,7 @@ Pokemon =   {
                 'Whirlwind':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':35},
                 'Feather Dance':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
-                'Agility':{'Type':"Agility",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Agility':{'Type':"Psychic",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Wing Attack':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':35},
                 'Roost':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Tailwind':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
@@ -265,7 +301,9 @@ Pokemon =   {
                 'Hurricane':{'Type':"Flying",'cat':"special",'pwr':110,'acc':70,'pp':35}
                 }},
             "Pidgeot":
-            {'Hp':83,'Atk':80,'Def':80,'Sp.Atk':135,'Sp.Def':80,'Speed':121,'Type':['Normal','Flying'],
+                {'Hp':83,'Atk':80,'Def':80,'Sp.Atk':135,'Sp.Def':80,'Speed':121,
+                'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
+                'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
                 'Moves':{
                 'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Sand Attack':{'Type':"Ground",'cat':"status",'pwr':0,'acc':100,'pp':35},
@@ -274,7 +312,7 @@ Pokemon =   {
                 'Whirlwind':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':35},
                 'Feather Dance':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
-                'Agility':{'Type':"Agility",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Agility':{'Type':"Psychic",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Wing Attack':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':35},
                 'Roost':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
                 'Tailwind':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':35},
@@ -283,11 +321,133 @@ Pokemon =   {
                 'Hurricane':{'Type':"Flying",'cat':"special",'pwr':110,'acc':70,'pp':35}
                 }},
             "Rattata":
+                {'Hp':30,'Atk':56,'Def':35,'Sp.Atk':25,'Sp.Def':35,'Speed':72,
+                'Type':['Normal'],'Weakness':{'Fighting':2},
+                'Immune':{'Ghost':0},'Resistant':{},
+                'Moves':{
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Tail Whip':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Focus Energy':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Hyper Fang':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':90,'pp':15},
+                'Assurance':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Crunch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':70,'acc':100,'pp':5},
+                'Super Fang':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':90,'pp':10},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Endeavor':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':100,'pp':5}
+                }},
             "Raticate":
+                {'Hp':55,'Atk':81,'Def':60,'Sp.Atk':50,'Sp.Def':70,'Speed':97,
+                'Type':['Normal'],'Weakness':{'Fighting':2},
+                'Immune':{'Ghost':0},'Resistant':{},
+                'Moves':{
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Tail Whip':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Focus Energy':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Hyper Fang':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':90,'pp':15},
+                'Assurance':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Crunch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':70,'acc':100,'pp':5},
+                'Super Fang':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':90,'pp':10},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Endeavor':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':100,'pp':5},
+                'Scary Face':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':10},
+                'Sword Dance':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':20}
+                }},
             "Spearow":
+                {'Hp':40,'Atk':60,'Def':30,'Sp.Atk':31,'Sp.Def':31,'Speed':70,
+                'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
+                'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
+                'Moves':{
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Growl':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':40},
+                'Leer':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Aerial Ace':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Mirror Move':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':20},
+                'Assurance':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Agility':{'Type':"Psychic",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Focus Energy':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Roost':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':10},
+                'Drill Peck':{'Type':"Flying",'cat':"physical",'pwr':80,'acc':100,'pp':20}
+                }},
             "Fearow":
+                {'Hp':65,'Atk':90,'Def':65,'Sp.Atk':61,'Sp.Def':61,'Speed':100,
+                'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
+                'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
+                'Moves':{
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Growl':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':40},
+                'Leer':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Aerial Ace':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Mirror Move':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':20},
+                'Assurance':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Agility':{'Type':"Psychic",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Focus Energy':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Roost':{'Type':"Flying",'cat':"status",'pwr':0,'acc':100,'pp':10},
+                'Drill Peck':{'Type':"Flying",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Drill Run':{'Type':"Ground",'cat':"physical",'pwr':80,'acc':95,'pp':10},
+                'Pluck':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                }},
             "Ekans":
+                {'Hp':35,'Atk':60,'Def':44,'Sp.Atk':40,'Sp.Def':54,'Speed':55,
+                'Type':['Poison'],'Weakness':{'Ground':2,'Psychic':2},
+                'Immune':{},'Resistant':{'Grass':1/2,'Bug':1/2,'Poison':1/2,'Fighting':1/2},
+                'Moves':{
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Leer':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Poison Sting':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Bite':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Glare':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Screech':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Acid':{'Type':"Normal",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Stockpile':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Swallow':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Spit Up':{'Type':"Normal",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Acid Spray':{'Type':"Normal",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Mud Bomb':{'Type':"Normal",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Gastro Acid':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Belch':{'Type':"Normal",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Haze':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Coil':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Gunk Shot':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20}
+                }},
             "Arbok":
+                {'Hp':35,'Atk':60,'Def':44,'Sp.Atk':40,'Sp.Def':54,'Speed':55,
+                'Type':['Poison'],'Weakness':{'Ground':2,'Psychic':2},
+                'Immune':{},'Resistant':{'Grass':1/2,'Bug':1/2,'Poison':1/2,'Fighting':1/2},
+                'Moves':{
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Leer':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Poison Sting':{'Type':"Poison",'cat':"physical",'pwr':15,'acc':100,'pp':35},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Glare':{'Type':"Normal",'cat':"status",'pwr':0,'acc':100,'pp':30},
+                'Screech':{'Type':"Normal",'cat':"status",'pwr':0,'acc':85,'pp':40},
+                'Acid':{'Type':"Poison",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Stockpile':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Swallow':{'Type':"Normal",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Spit Up':{'Type':"Normal",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Acid Spray':{'Type':"Poison",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Mud Bomb':{'Type':"Normal",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Gastro Acid':{'Type':"Poison",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Belch':{'Type':"Poison",'cat':"special",'pwr':15,'acc':90,'pp':20},
+                'Haze':{'Type':"Ice",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Coil':{'Type':"Poison",'cat':"status",'pwr':15,'acc':90,'pp':20},
+                'Gunk Shot':{'Type':"Poison",'cat':"physical",'pwr':15,'acc':90,'pp':20}
+                'Crunch'
+                'Ice Fang'
+                'Thunder Fang'
+                'Fire Fang'
+                }},
             "Pikachu":
             "Raichu":
             "Sandshrew":
@@ -414,12 +574,15 @@ Pokemon =   {
             "Mewtwo":
             "Mew":
 }
+
 ##==================================================
-def Battle(p1,p2):
-    
-    Priority = []
+""" def Battle(p1,p2):
+    Priority = [] #ลำดับการตี
     Priority.append(Pokemon[p1]['Speed'],Pokemon[p2]['Speed'])
+    if Priority[0] == Pokemon[p1]['Speed']: """
+        
 ##==================================================
+##Battle(p1,p2):
 '''
 p1 = input("Choose your Pokemon!! : ")
 print('You have choose',p1)
