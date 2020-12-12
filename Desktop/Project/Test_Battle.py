@@ -124,25 +124,84 @@ Pokemon =   {
                 }}
 }
 #==========================================================================================================
-""" def MainBattle(p1,p2):
+ def MainBattle(p1,p2):
+    p1chp = Hp(p1)
+    p2chp = Hp(p2)
     Priority = [] #ลำดับการตี
     Priority.append(Pokemon[p1]['Speed'],Pokemon[p2]['Speed'])
-
+    if p1chp !=0 or p2chp != 0:
         if Priority[0] == Pokemon[p1]['Speed']:
             Battle(p1,p2)
         else:
-            Battle(p2,p1) """
+            Battle(p2,p1)
+    else:
+        if p1chp !=0:
+            print(p1,'Won the battle!!')
+        else:
+            print(p2,'Won the battle!!')
 
 ##ทำที่ใส่นิสัยแบบใส่โปเกมอน
 ##PokemonP1 =[p1,movech1]
 ##print(PokemonP1)
+def Priority(use1,use2):
+    p = []
+    p5p = ['Helping Hand']
+    p4p = ['Baneful Bunker','Detect','Endure',"King's Shield",'Magic Coat','Protect','Spiky Shield','Snatch']
+    p3p = ['Crafty Shield','Fake Out','Quick Guard','Wide Guard']
+    p2p = ['Ally Switch','Extreme Speed','Feint','First Impression','Follow Me','Rage Powder','Zippy Zap']
+    p1p = ['Accelerock','Aqua Jet','Baby-Doll Eyes','Bide','Bullet Punch','Ice Shard','Ion Deluge','Mach Punch','Powder','Quick Attack','Shadow Sneak','Sucker Punch','Vacuum Wave','Water Shuriken']
+    p1m = ['Vital Throw']
+    p3m = ['Focus Punch']
+    p4m = ['Avalanche','Revenge']
+    p5m = ['Counter','Mirror Coat']
+    p6m = ['Circle Throw','Dragon Tail','Roar','Whirlwind']
+    p7m = ['Trick Room']
+    prip = [p5p,p4p,p3p,p2p,p1p] #Priority Plus
+    prim = [p1m,p3m,p4m,p5m,p6m,p7m] #Priority Minus
+    pri = [p5p,p4p,p3p,p2p,p1p,p1m,p3m,p4m,p5m,p6m,p7m]
+    for i in pri:
+        if i == p5p:
+            j = +5
+        elif i == p4p:
+            j = +4
+        elif i == p3p:
+            j = +3
+        elif i == p2p:
+            j = +2
+        elif i == p1p:
+            j = +1
+        elif i == p1m:
+            j = -1
+        elif i == p3m:
+            j = -3
+        elif i == p4m:
+            j = -4
+        elif i == p5m:
+            j = -5
+        elif i == p6m:
+            j = -6
+        elif i == p7m:
+            j = -7
+        else :
+            j = 0
+        if use1 in i:
+            use1 = {use1:j}
+        if use2 in i:
+            use2 = {use2:j}
+    if use1[use1] == use2[use2]:
+        return
+
+def Status(p1,p2):
+#=================================================================
 def Battle(PokemonP1,PokemonP2): ## Phrase ต่อสู้
     for i in PokemonP1[1]:
         print(i)
-    use1 = input("Choose Move from your Movesets :")
+    use1 = input("Choose your move!! :")
     for i in PokemonP2[1]:
         print(i)
-    use2 = input("Choose Move from your opponent Movesets :")
+    use2 = input("Choose your opponent move!! :")
+    dmg1 = Type(p1,use1,p2)
+    dmg2 = Type(p2,use2,p1)
 
 def Mod(p1,usage_move):
     if Pokemon[p1]['Moves'][usage_move] == ''
@@ -191,7 +250,7 @@ def Realstats(p1): ## stats จริงของมอน
     RS.append(SpAtk(p1))
     RS.append(SpDef(p1))
     RS.append(Speed(p1))
-    print(RS)
+    return RS
 #==========================================================================================================
 """ q1 = True
 while q1 == True:
