@@ -88,7 +88,7 @@ Pokemon =   {
                 'Flare Blitz':{'Type':"Fire",'cat':"physical",'pwr':120,'acc':100,'pp':15},
                 'Air Slash':{'Type':"Flying",'cat':"special",'pwr':75,'acc':95,'pp':15},
                 'Dragon Claw':{'Type':"Dragon",'cat':"physical",'pwr':80,'acc':100,'pp':15},
-                'Heat Wave':{'Type':"Fire",'cat':"special",'pwr':950,'acc':90,'pp':10}
+                'Heat Wave':{'Type':"Fire",'cat':"special",'pwr':95,'acc':90,'pp':10}
                 }},
             "Squirtle":
                 {'Hp':44,'Atk':48,'Def':65,'Sp.Atk':50,'Sp.Def':64,'Speed':43,
@@ -191,7 +191,6 @@ Pokemon =   {
                 'Assurance':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':10},
                 'Pin Missile':{'Type':"Bug",'cat':"physical",'pwr':25,'acc':95,'pp':20},
                 'Poison Jab':{'Type':"Poison",'cat':"physical",'pwr':80,'acc':100,'pp':20},
-                'Endeavor':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':100,'pp':5},
                 'Fell Stinger':{'Type':"Bug",'cat':"physical",'pwr':50,'acc':100,'pp':25}
                 }},
             "Pidgey":
@@ -248,7 +247,6 @@ Pokemon =   {
                 'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':70,'acc':100,'pp':5},
                 'Super Fang':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':90,'pp':10},
                 'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
-                'Endeavor':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':100,'pp':5}
                 }},
             "Raticate":
                 {'Hp':55,'Atk':81,'Def':60,'Sp.Atk':50,'Sp.Def':70,'Speed':97,
@@ -263,9 +261,7 @@ Pokemon =   {
                 'Assurance':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':10},
                 'Crunch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':15},
                 'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':70,'acc':100,'pp':5},
-                'Super Fang':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':90,'pp':10},
                 'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
-                'Endeavor':{'Type':"Normal",'cat':"physical",'pwr':0,'acc':100,'pp':5},
                 }},
             "Spearow":
                 {'Hp':40,'Atk':60,'Def':30,'Sp.Atk':31,'Sp.Def':31,'Speed':70,
@@ -370,7 +366,6 @@ Pokemon =   {
                 'Bulldoze':{'Type':"Ground",'cat':"physical",'pwr':60,'acc':100,'pp':20},
                 'Swift':{'Type':"Normal",'cat':"physical",'pwr':60,'acc':100,'pp':20},
                 'Fury Swipes':{'Type':"Normal",'cat':"special",'pwr':18,'acc':80,'pp':15},
-                'Agility':{'Type':"Psychic",'cat':"physical",'pwr':0,'acc':100,'pp':30},
                 'Slash':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
                 'Dig':{'Type':"Ground",'cat':"physical",'pwr':80,'acc':100,'pp':10},
                 'Gyro Ball':{'Type':"Steel",'cat':"physical",'pwr':40,'acc':100,'pp':5},
@@ -381,7 +376,7 @@ Pokemon =   {
                 'Type':['Ground'],'Weakness':{'Water':2,'Grass':2,'Ice':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/2,'Rock':1/2},
                 'Moves':{
-                'Crush Claw':{'Type':'Normal','cat':"physical",'pwr':75,'acc':95,'pp':10}
+                'Crush Claw':{'Type':'Normal','cat':"physical",'pwr':75,'acc':95,'pp':10},
                 'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
                 'Poison Sting':{'Type':"Poison",'cat':"physical",'pwr':15,'acc':100,'pp':35},
                 'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
@@ -592,7 +587,7 @@ Pokemon =   {
                 'Immune':{},'Resistant':{'Fighting':1/2,'Water':1/2,'Grass':1/4,'Electric':1/2},
                 'Moves':{
                 'Absorb':{'Type':'Grass','cat':'special','pwr':20,'acc':100,'pp':25},
-                'Acid':{'Type':'Poison','cat':'special','pwr':40,'acc':100,'pp'30},
+                'Acid':{'Type':'Poison','cat':'special','pwr':40,'acc':100,'pp':30},
                 'Mega Drain':{'Type':'Grass','cat':'special','pwr':40,'acc':100,'pp':15},
                 'Giga Drain':{'Type':'Grass','cat':'special','pwr':75,'acc':100,'pp':10},
                 'Petal Dance':{'Type':'Grass','cat':'special','pwr':120,'acc':100,'pp':10}
@@ -603,7 +598,7 @@ Pokemon =   {
                 'Immune':{},'Resistant':{'Fighting':1/2,'Water':1/2,'Grass':1/4,'Electric':1/2},
                 'Moves':{
                 'Absorb':{'Type':'Grass','cat':'special','pwr':20,'acc':100,'pp':25},
-                'Acid':{'Type':'Poison','cat':'special','pwr':40,'acc':100,'pp'30},
+                'Acid':{'Type':'Poison','cat':'special','pwr':40,'acc':100,'pp':30},
                 'Mega Drain':{'Type':'Grass','cat':'special','pwr':40,'acc':100,'pp':15},
                 'Giga Drain':{'Type':'Grass','cat':'special','pwr':75,'acc':100,'pp':10},
                 'Petal Dance':{'Type':'Grass','cat':'special','pwr':120,'acc':100,'pp':10}
@@ -614,7 +609,7 @@ Pokemon =   {
                 'Immune':{},'Resistant':{'Fighting':1/2,'Water':1/2,'Grass':1/4,'Electric':1/2},
                 'Moves':{
                 'Absorb':{'Type':'Grass','cat':'special','pwr':20,'acc':100,'pp':25},
-                'Acid':{'Type':'Poison','cat':'special','pwr':40,'acc':100,'pp'30},
+                'Acid':{'Type':'Poison','cat':'special','pwr':40,'acc':100,'pp':30},
                 'Mega Drain':{'Type':'Grass','cat':'special','pwr':40,'acc':100,'pp':15},
                 'Giga Drain':{'Type':'Grass','cat':'special','pwr':75,'acc':100,'pp':10},
                 'Petal Dance':{'Type':'Grass','cat':'special','pwr':120,'acc':100,'pp':10},
@@ -673,8 +668,8 @@ Pokemon =   {
                 'Signal Beam':{'Type':"Bug",'cat':"special",'pwr':75,'acc':100,'pp':15},
                 'Zen Headbutt':{'Type':"Psychic",'cat':"physical",'pwr':80,'acc':90,'pp':15},
                 'Poison Fang':{'Type':"Poison",'cat':"physical",'pwr':50,'acc':100,'pp':15},
-                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10}
-                'Bug Buzz':{'Type':"Bug",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Bug Buzz':{'Type':"Bug",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Diglett":
                 {'Hp':10,'Atk':55,'Def':25,'Sp.Atk':35,'Sp.Def':45,'Speed':95,
@@ -691,7 +686,6 @@ Pokemon =   {
                 'Earth Power':{'Type':"Ground",'cat':"special",'pwr':90,'acc':80,'pp':10},
                 'Dig':{'Type':"Ground",'cat':"physical",'pwr':80,'acc':100,'pp':10},
                 'Slash':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
-                'Fissure':{'Type':"Ground",'cat':"physical",'pwr':0,'acc':100,'pp':5},
                 'Earthquake':{'Type':"Ground",'cat':"physical",'pwr':100,'acc':100,'pp':10}
                 }},
             "Dugtrio":
@@ -712,7 +706,6 @@ Pokemon =   {
                 'Earth Power':{'Type':"Ground",'cat':"special",'pwr':90,'acc':80,'pp':10},
                 'Dig':{'Type':"Ground",'cat':"physical",'pwr':80,'acc':100,'pp':10},
                 'Slash':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
-                'Fissure':{'Type':"Ground",'cat':"physical",'pwr':0,'acc':100,'pp':5},
                 'Earthquake':{'Type':"Ground",'cat':"physical",'pwr':100,'acc':100,'pp':10}
                 }},
             "Meowth":
@@ -859,7 +852,7 @@ Pokemon =   {
                 'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
                 'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':95,'acc':95,'pp':15},
                 'Wake-Up Slap':{'Type':"Fighting",'cat':"physical",'pwr':60,'acc':100,'pp':10},
-                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5}
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
                 'Mud Bomb':{'Type':"Ground",'cat':"special",'pwr':65,'acc':85,'pp':10}
                 }},
             "Poliwhirl":
@@ -874,7 +867,7 @@ Pokemon =   {
                 'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
                 'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':95,'acc':95,'pp':15},
                 'Wake-Up Slap':{'Type':"Fighting",'cat':"physical",'pwr':60,'acc':100,'pp':10},
-                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5}
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
                 'Mud Bomb':{'Type':"Ground",'cat':"special",'pwr':65,'acc':85,'pp':10}
                 }},
             "Poliwrath":
@@ -889,8 +882,8 @@ Pokemon =   {
                 'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
                 'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':95,'acc':95,'pp':15},
                 'Wake-Up Slap':{'Type':"Fighting",'cat':"physical",'pwr':60,'acc':100,'pp':10},
-                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5}
-                'Mud Bomb':{'Type':"Ground",'cat':"special",'pwr':65,'acc':85,'pp':10}
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Mud Bomb':{'Type':"Ground",'cat':"special",'pwr':65,'acc':85,'pp':10},
                 'Submission':{'Type':"Fighting",'cat':"physical",'pwr':80,'acc':80,'pp':25},
                 'Dynamic Punch':{'Type':"Fighting",'cat':"physical",'pwr':100,'acc':50,'pp':5},
                 'Circle Throw':{'Type':"Fighting",'cat':"physical",'pwr':60,'acc':90,'pp':10}
@@ -1017,561 +1010,1192 @@ Pokemon =   {
                 'Type':['Water','Poison'],'Weakness':{'Ground':2,'Electric':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2,'Fighting':1/2,'Poison':1/2,'Bug':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Poison Sting':{'Type':"Poison",'cat':"physical",'pwr':15,'acc':100,'pp':35},
+                'Constrict':{'Type':"Normal",'cat':"physical",'pwr':10,'acc':100,'pp':35},
+                'Acid':{'Type':"Poison",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Acid Spray':{'Type':"Poison",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Poison Jab':{'Type':"Poison",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Hex':{'Type':"Ghost",'cat':"special",'pwr':50,'acc':100,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Sludge Wave':{'Type':"Poison",'cat':"special",'pwr':95,'acc':100,'pp':10}
                 }},
             "Tentacruel":
                 {'Hp':80,'Atk':70,'Def':65,'Sp.Atk':80,'Sp.Def':120,'Speed':100,
                 'Type':['Water','Poison'],'Weakness':{'Ground':2,'Electric':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2,'Fighting':1/2,'Poison':1/2,'Bug':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Poison Sting':{'Type':"Poison",'cat':"physical",'pwr':15,'acc':100,'pp':35},
+                'Constrict':{'Type':"Normal",'cat':"physical",'pwr':10,'acc':100,'pp':35},
+                'Acid':{'Type':"Poison",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Acid Spray':{'Type':"Poison",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Poison Jab':{'Type':"Poison",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Hex':{'Type':"Ghost",'cat':"special",'pwr':50,'acc':100,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Sludge Wave':{'Type':"Poison",'cat':"special",'pwr':95,'acc':100,'pp':10}
                 }},
             "Geodude":
                 {'Hp':40,'Atk':80,'Def':100,'Sp.Atk':30,'Sp.Def':30,'Speed':20,
                 'Type':['Rock','Ground'],'Weakness':{'Water':4,'Grass':4,'Ice':2,'Ground':2,'Fighting':2,'Steel':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/4,'Rock':1/2,'Flying':1/2,'Normal':1/2,'Fire':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Rock Throw':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':90,'pp':15},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Magnitude':{'Type':"Ground",'cat':"physical",'pwr':70,'acc':100,'pp':30},
+                'Bulldoze':{'Type':"Ground",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Rock Blast':{'Type':"Rock",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Smack Down':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':100,'pp':15},
+                'Explosion':{'Type':"Normal",'cat':"physical",'pwr':250,'acc':100,'pp':5},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Stone Edge':{'Type':"Rock",'cat':"physical",'pwr':100,'acc':80,'pp':5},
+                'Earthquake':{'Type':"Ground",'cat':"physical",'pwr':100,'acc':100,'pp':10}
                 }},
             "Graveler":
                 {'Hp':55,'Atk':95,'Def':115,'Sp.Atk':45,'Sp.Def':45,'Speed':35,
                 'Type':['Rock','Ground'],'Weakness':{'Water':4,'Grass':4,'Ice':2,'Ground':2,'Fighting':2,'Steel':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/4,'Rock':1/2,'Flying':1/2,'Normal':1/2,'Fire':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Rock Throw':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':90,'pp':15},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Magnitude':{'Type':"Ground",'cat':"physical",'pwr':70,'acc':100,'pp':30},
+                'Bulldoze':{'Type':"Ground",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Rock Blast':{'Type':"Rock",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Smack Down':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':100,'pp':15},
+                'Explosion':{'Type':"Normal",'cat':"physical",'pwr':250,'acc':100,'pp':5},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Stone Edge':{'Type':"Rock",'cat':"physical",'pwr':100,'acc':80,'pp':5},
+                'Earthquake':{'Type':"Ground",'cat':"physical",'pwr':100,'acc':100,'pp':10},
+                'Selfdestruct':{'Type':'Normal','cat':'physical','pwr':100,'acc':100,'pp':5}
                 }},
             "Golem":
                 {'Hp':80,'Atk':110,'Def':130,'Sp.Atk':55,'Sp.Def':65,'Speed':45,
                 'Type':['Rock','Ground'],'Weakness':{'Water':4,'Grass':4,'Ice':2,'Ground':2,'Fighting':2,'Steel':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/4,'Rock':1/2,'Flying':1/2,'Normal':1/2,'Fire':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Rock Throw':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':90,'pp':15},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Magnitude':{'Type':"Ground",'cat':"physical",'pwr':70,'acc':100,'pp':30},
+                'Bulldoze':{'Type':"Ground",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Rock Blast':{'Type':"Rock",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Smack Down':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':100,'pp':15},
+                'Explosion':{'Type':"Normal",'cat':"physical",'pwr':250,'acc':100,'pp':5},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Stone Edge':{'Type':"Rock",'cat':"physical",'pwr':100,'acc':80,'pp':5},
+                'Earthquake':{'Type':"Ground",'cat':"physical",'pwr':100,'acc':100,'pp':10},
+                'Selfdestruct':{'Type':'Normal','cat':'physical','pwr':100,'acc':100,'pp':5},
+                'Steamroller':{'Type':'Bug','cat':'physical','pwr':65,'acc':100,'pp':20},
+                'Heavy Slam':{'Type':'Steel','cat':'physical','pwr':60,'acc':100,'pp':10}
                 }},
             "Ponyta":
                 {'Hp':50,'Atk':85,'Def':55,'Sp.Atk':65,'Sp.Def':65,'Speed':90,
                 'Type':['Fire'],'Weakness':{'Ground':2,'Rock':2,'Water':2},
                 'Immune':{},'Resistant':{'Bug':1/2,'Steel':1/2,'Fire':1/2,'Grass':1/2,'Ice':1/2},
                 'Moves':{
-                'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Ember':{'Type':"Fire",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Flame Wheel':{'Type':"Fire",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Flame Charge':{'Type':"Fire",'cat':"physical",'pwr':50,'acc':100,'pp':20},
+                'Fire Spin':{'Type':"Fire",'cat':"special",'pwr':35,'acc':85,'pp':15},
+                'Take Down':{'Type':"Normal",'cat':"physical",'pwr':90,'acc':85,'pp':20},
+                'Inferno':{'Type':"Fire",'cat':"special",'pwr':100,'acc':50,'pp':5},
+                'Fire Blast':{'Type':"Fire",'cat':"special",'pwr':120,'acc':85,'pp':5},
+                'Bounce':{'Type':"Flying",'cat':"physical",'pwr':85,'acc':85,'pp':5},
+                'Flare Blitz':{'Type':"Fire",'cat':"physical",'pwr':120,'acc':100,'pp':15}
                 }},
             "Rapidash":
                 {'Hp':65,'Atk':100,'Def':70,'Sp.Atk':80,'Sp.Def':80,'Speed':105,
                 'Type':['Fire'],'Weakness':{'Ground':2,'Rock':2,'Water':2},
                 'Immune':{},'Resistant':{'Bug':1/2,'Steel':1/2,'Fire':1/2,'Grass':1/2,'Ice':1/2},
                 'Moves':{
-                'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Megahorn':{'Type':"Bug",'cat':"physical",'pwr':120,'acc':85,'pp':10},
+                'Poison Jab':{'Type':"Poison",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Ember':{'Type':"Fire",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Flame Wheel':{'Type':"Fire",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Flame Charge':{'Type':"Fire",'cat':"physical",'pwr':50,'acc':100,'pp':20},
+                'Fire Spin':{'Type':"Fire",'cat':"special",'pwr':35,'acc':85,'pp':15},
+                'Take Down':{'Type':"Normal",'cat':"physical",'pwr':90,'acc':85,'pp':20},
+                'Inferno':{'Type':"Fire",'cat':"special",'pwr':100,'acc':50,'pp':5},
+                'Fire Blast':{'Type':"Fire",'cat':"special",'pwr':120,'acc':85,'pp':5},
+                'Bounce':{'Type':"Flying",'cat':"physical",'pwr':85,'acc':85,'pp':5},
+                'Flare Blitz':{'Type':"Fire",'cat':"physical",'pwr':120,'acc':100,'pp':15}
                 }},
             "Slowpoke":
                 {'Hp':90,'Atk':65,'Def':65,'Sp.Atk':40,'Sp.Def':40,'Speed':15,
                 'Type':['Water','Psychic'],'Weakness':{'Grass':2,'Electric':2,'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2,'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Zen Headbutt':{'Type':"Psychic",'cat':"physical",'pwr':80,'acc':90,'pp':15},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Slowbro":
                 {'Hp':95,'Atk':75,'Def':110,'Sp.Atk':100,'Sp.Def':80,'Speed':30,
                 'Type':['Water','Psychic'],'Weakness':{'Grass':2,'Electric':2,'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2,'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Zen Headbutt':{'Type':"Psychic",'cat':"physical",'pwr':80,'acc':90,'pp':15},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Magnemite":
                 {'Hp':25,'Atk':35,'Def':70,'Sp.Atk':95,'Sp.Def':55,'Speed':45,
                 'Type':['Electric','Steel'],'Weakness':{'Fighting':2,'Ground':4,'Fire':2},
                 'Immune':{'Poison':0},'Resistant':{'Grass':1/2,'Bug':1/2,'Normal':1/2,'Flying':1/4,'Rock':1/2,'Steel':1/4,'Electric':1/2,'Psychic':1/2,'Ice':1/2,'Dragon':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Thunder Shock':{'Type':"Electric",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Magnet Bomb':{'Type':"Steel",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Mirror Shot':{'Type':"Steel",'cat':"physical",'pwr':65,'acc':85,'pp':10},
+                'Spark':{'Type':"Electric",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Electro Ball':{'Type':"Electric",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Discharge':{'Type':"Electric",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Flash Cannon':{'Type':"Steel",'cat':"physical",'pwr':80,'acc':100,'pp':10},
+                'Zap Cannon':{'Type':"Electric",'cat':"special",'pwr':120,'acc':50,'pp':5}
                 }},
             "Magneton":
                 {'Hp':50,'Atk':60,'Def':95,'Sp.Atk':120,'Sp.Def':70,'Speed':70,
                 'Type':['Electric','Steel'],'Weakness':{'Fighting':2,'Ground':4,'Fire':2},
                 'Immune':{'Poison':0},'Resistant':{'Grass':1/2,'Bug':1/2,'Normal':1/2,'Flying':1/4,'Rock':1/2,'Steel':1/4,'Electric':1/2,'Psychic':1/2,'Ice':1/2,'Dragon':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tri Attack':{'Type':"Normal",'cat':"special",'pwr':80,'acc':100,'pp':10},
+                'Thunder Shock':{'Type':"Electric",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Magnet Bomb':{'Type':"Steel",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Mirror Shot':{'Type':"Steel",'cat':"physical",'pwr':65,'acc':85,'pp':10},
+                'Spark':{'Type':"Electric",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Electro Ball':{'Type':"Electric",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Discharge':{'Type':"Electric",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Flash Cannon':{'Type':"Steel",'cat':"physical",'pwr':80,'acc':100,'pp':10},
+                'Zap Cannon':{'Type':"Electric",'cat':"special",'pwr':120,'acc':50,'pp':5}
                 }},
             "Farfetch'd":
                 {'Hp':52,'Atk':90,'Def':55,'Sp.Atk':58,'Sp.Def':62,'Speed':60,
                 'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
                 'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Poison Jab':{'Type':"Poison",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Fury Cutter':{'Type':"Bug",'cat':"physical",'pwr':20,'acc':95,'pp':20},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':100,'pp':20},
+                'Knock Off':{'Type':"Dark",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Aerial Ace':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Slash':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Air Cutter':{'Type':"Flying",'cat':"special",'pwr':55,'acc':95,'pp':25},
+                'Night Slash':{'Type':"Dark",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Acrobatics':{'Type':"Flying",'cat':"physical",'pwr':55,'acc':100,'pp':15},
+                'Feint':{'Type':"Normal",'cat':"physical",'pwr':30,'acc':100,'pp':10},
+                'False Swipe':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':40},
+                'Air Slash':{'Type':"Flying",'cat':"special",'pwr':75,'acc':95,'pp':20},
+                'Brave Bird':{'Type':"Flying",'cat':"physical",'pwr':120,'acc':100,'pp':15}
                 }},
             "Doduo":
                 {'Hp':35,'Atk':85,'Def':45,'Sp.Atk':35,'Sp.Def':35,'Speed':75,
                 'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
                 'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Rage':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Uproar':{'Type':"Normal",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Double Hit':{'Type':"Normal",'cat':"physical",'pwr':35,'acc':90,'pp':10},
+                'Drill Peck':{'Type':"Flying",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Thrash':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':10}
                 }},                
             "Dodrio":
                 {'Hp':60,'Atk':110,'Def':70,'Sp.Atk':60,'Sp.Def':60,'Speed':110,
                 'Type':['Normal','Flying'],'Weakness':{'Electric':2,'Rock':2,'Ice':2},
                 'Immune':{'Ground':0,'Ghost':0},'Resistant':{'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Pluck':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Rage':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Uproar':{'Type':"Normal",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Double Hit':{'Type':"Normal",'cat':"physical",'pwr':35,'acc':90,'pp':10},
+                'Drill Peck':{'Type':"Flying",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Thrash':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':10}
                 }},
             "Seel":
                 {'Hp':65,'Atk':45,'Def':55,'Sp.Atk':45,'Sp.Def':70,'Speed':45,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Icy Wind':{'Type':"Ice",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Ice Shard':{'Type':"Ice",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Aurora Beam':{'Type':"Ice",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Aqua Jet':{'Type':"Water",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Take Down':{'Type':"Normal",'cat':"physical",'pwr':90,'acc':85,'pp':20},
+                'Dive':{'Type':"Water",'cat':"physical",'pwr':80,'acc':100,'pp':10},
+                'Aqua Tail':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10},
+                'Ice Beam':{'Type':"Ice",'cat':"special",'pwr':95,'acc':100,'pp':10}
                 }},
             "Dewgong":
                 {'Hp':90,'Atk':70,'Def':80,'Sp.Atk':70,'Sp.Def':95,'Speed':70,
                 'Type':['Water','Ice'],'Weakness':{'Grass':2,'Electric':2,'Fighting':2,'Rock':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Ice':1/4},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Signal Beam':{'Type':"Bug",'cat':"special",'pwr':75,'acc':100,'pp':15},
+                'Icy Wind':{'Type':"Ice",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Ice Shard':{'Type':"Ice",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Aurora Beam':{'Type':"Ice",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Aqua Jet':{'Type':"Water",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Take Down':{'Type':"Normal",'cat':"physical",'pwr':90,'acc':85,'pp':20},
+                'Dive':{'Type':"Water",'cat':"physical",'pwr':80,'acc':100,'pp':10},
+                'Aqua Tail':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10},
+                'Ice Beam':{'Type':"Ice",'cat':"special",'pwr':95,'acc':100,'pp':10}
                 }},
             "Grimer":
                 {'Hp':80,'Atk':80,'Def':50,'Sp.Atk':40,'Sp.Def':50,'Speed':25,
                 'Type':['Poison'],'Weakness':{'Ground':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Poison':1/2,'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Move'
+                'Pound':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Mud-Slap':{'Type':"Ground",'cat':"special",'pwr':20,'acc':100,'pp':10},
+                'Sludge Bomb':{'Type':"Poison",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Sludge':{'Type':"Poison",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Mud Bomb':{'Type':"Ground",'cat':"special",'pwr':65,'acc':85,'pp':10},
+                'Sludge Wave':{'Type':"Poison",'cat':"special",'pwr':95,'acc':100,'pp':10},
+                'Gunk Shot':{'Type':"Poison",'cat':"physical",'pwr':120,'acc':70,'pp':5}
                 }},
             "Muk":
                 {'Hp':105,'Atk':105,'Def':75,'Sp.Atk':65,'Sp.Def':100,'Speed':50,
                 'Type':['Poison'],'Weakness':{'Ground':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Poison':1/2,'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Move'
+                'Pound':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Mud-Slap':{'Type':"Ground",'cat':"special",'pwr':20,'acc':100,'pp':10},
+                'Sludge Bomb':{'Type':"Poison",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Sludge':{'Type':"Poison",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Mud Bomb':{'Type':"Ground",'cat':"special",'pwr':65,'acc':85,'pp':10},
+                'Sludge Wave':{'Type':"Poison",'cat':"special",'pwr':95,'acc':100,'pp':10},
+                'Gunk Shot':{'Type':"Poison",'cat':"physical",'pwr':120,'acc':70,'pp':5}
                 }},
             "Shellder":
                 {'Hp':30,'Atk':65,'Def':100,'Sp.Atk':45,'Sp.Def':25,'Speed':40,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Icicle Spear':{'Type':"Ice",'cat':"physical",'pwr':25,'acc':100,'pp':30},
+                'Clamp':{'Type':"Water",'cat':"physical",'pwr':35,'acc':85,'pp':15},
+                'Ice Shard':{'Type':"Ice",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Aurora Beam':{'Type':"Ice",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Razor Shell':{'Type':"Water",'cat':"physical",'pwr':75,'acc':95,'pp':10},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Whirlpool':{'Type':"Water",'cat':"special",'pwr':35,'acc':85,'pp':15},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Ice Beam':{'Type':"Ice",'cat':"special",'pwr':95,'acc':100,'pp':10}
                 }},
             "Cloyster":
                 {'Hp':50,'Atk':95,'Def':180,'Sp.Atk':85,'Sp.Def':45,'Speed':70,
                 'Type':['Water','Ice'],'Weakness':{'Grass':2,'Electric':2,'Fighting':2,'Rock':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Ice':1/4},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Icicle Spear':{'Type':"Ice",'cat':"physical",'pwr':25,'acc':100,'pp':30},
+                'Clamp':{'Type':"Water",'cat':"physical",'pwr':35,'acc':85,'pp':15},
+                'Ice Shard':{'Type':"Ice",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Aurora Beam':{'Type':"Ice",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Razor Shell':{'Type':"Water",'cat':"physical",'pwr':75,'acc':95,'pp':10},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Whirlpool':{'Type':"Water",'cat':"special",'pwr':35,'acc':85,'pp':15},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Ice Beam':{'Type':"Ice",'cat':"special",'pwr':95,'acc':100,'pp':10},
+                'Icicle Crash':{'Type':"Ice",'cat':"physical",'pwr':85,'acc':90,'pp':10},
+                'Spike Cannon':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':15}
                 }},
             "Gastly":
                 {'Hp':30,'Atk':35,'Def':30,'Sp.Atk':100,'Sp.Def':35,'Speed':80,
                 'Type':['Ghost','Poison'],'Weakness':{'Ground':2,'Psychic':2},
                 'Immune':{'Normal':0,'Fighting':0,'Ground':0},'Resistant':{'Bug':1/4,'Poison':1/4,'Grass':1/2},
                 'Moves':{
-                'Move'
+                'Lick':{'Type':"Ghost",'cat':"physical",'pwr':20,'acc':100,'pp':30},
+                'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':5},
+                'Payback':{'Type':"Dark",'cat':"physical",'pwr':50,'acc':100,'pp':10},                
+                'Shadow Ball':{'Type':"Ghost",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Dream Eater':{'Type':"Psychic",'cat':"special",'pwr':100,'acc':100,'pp':15},
+                'Dark Pulse':{'Type':"Dark",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Hex':{'Type':"Ghost",'cat':"special",'pwr':50,'acc':100,'pp':10}
                 }},
             "Haunter":
                 {'Hp':45,'Atk':50,'Def':45,'Sp.Atk':115,'Sp.Def':55,'Speed':95,
                 'Type':['Ghost','Poison'],'Weakness':{'Ground':2,'Psychic':2},
                 'Immune':{'Normal':0,'Fighting':0,'Ground':0},'Resistant':{'Bug':1/4,'Poison':1/4,'Grass':1/2},
                 'Moves':{
-                'Move'
+                'Lick':{'Type':"Ghost",'cat':"physical",'pwr':20,'acc':100,'pp':30},
+                'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':5},
+                'Shadow Punch':{'Type':"Ghost",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Payback':{'Type':"Dark",'cat':"physical",'pwr':50,'acc':100,'pp':10},                
+                'Shadow Ball':{'Type':"Ghost",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Dream Eater':{'Type':"Psychic",'cat':"special",'pwr':100,'acc':100,'pp':15},
+                'Dark Pulse':{'Type':"Dark",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Hex':{'Type':"Ghost",'cat':"special",'pwr':50,'acc':100,'pp':10}
                 }},
             "Gengar":
                 {'Hp':60,'Atk':65,'Def':60,'Sp.Atk':130,'Sp.Def':75,'Speed':110,
                 'Type':['Ghost','Poison'],'Weakness':{'Ground':2,'Psychic':2},
                 'Immune':{'Normal':0,'Fighting':0,'Ground':0},'Resistant':{'Bug':1/4,'Poison':1/4,'Grass':1/2},
                 'Moves':{
-                'Move'
+                'Lick':{'Type':"Ghost",'cat':"physical",'pwr':20,'acc':100,'pp':30},
+                'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':5},
+                'Shadow Punch':{'Type':"Ghost",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Payback':{'Type':"Dark",'cat':"physical",'pwr':50,'acc':100,'pp':10},                
+                'Shadow Ball':{'Type':"Ghost",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Dream Eater':{'Type':"Psychic",'cat':"special",'pwr':100,'acc':100,'pp':15},
+                'Dark Pulse':{'Type':"Dark",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Hex':{'Type':"Ghost",'cat':"special",'pwr':50,'acc':100,'pp':10}
                 }},
             "Onix":
                 {'Hp':35,'Atk':45,'Def':160,'Sp.Atk':30,'Sp.Def':45,'Speed':70,
                 'Type':['Rock','Ground'],'Weakness':{'Water':4,'Grass':4,'Ice':2,'Ground':2,'Fighting':2,'Steel':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/4,'Rock':1/2,'Flying':1/2,'Normal':1/2,'Fire':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Rock Throw':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':90,'pp':15},
+                'Bind':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Rage':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Rock Tomb':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':80,'pp':10},
+                'Dragon Breath':{'Type':"Dragon",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Rock Slide':{'Type':"Rock",'cat':"physical",'pwr':75,'acc':90,'pp':10},
+                'Smack Down':{'Type':"Rock",'cat':"physical",'pwr':50,'acc':100,'pp':15},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Sand Tomb':{'Type':"Ground",'cat':"physical",'pwr':35,'acc':85,'pp':15},
+                'Stone Edge':{'Type':"Rock",'cat':"physical",'pwr':100,'acc':80,'pp':5},
+                'Dig':{'Type':"Ground",'cat':"physical",'pwr':80,'acc':100,'pp':10},
+                'Iron Tail':{'Type':'Steel','cat':'physical','pwr':100,'acc':75,'pp':15},
+                'Double-Edge':{'Type':'Normal','cat':'physical','pwr':120,'acc':100,'pp':15}
                 }},
             "Drowzee":
                 {'Hp':60,'Atk':48,'Def':45,'Sp.Atk':43,'Sp.Def':90,'Speed':42,
                 'Type':['Psychic'],'Weakness':{'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Pound':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Synchronoise':{'Type':"Psychic",'cat':"special",'pwr':70,'acc':100,'pp':15},
+                'Zen Headbutt':{'Type':"Psychic",'cat':"physical",'pwr':80,'acc':90,'pp':15},
+                'Psyshock':{'Type':"Psychic",'cat':"special",'pwr':80,'acc':100,'pp':10},
+                'Psybeam':{'Type':"Psychic",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Future Sight':{'Type':"Psychic",'cat':"special",'pwr':100,'acc':100,'pp':10},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Hypno":
                 {'Hp':85,'Atk':73,'Def':70,'Sp.Atk':73,'Sp.Def':115,'Speed':67,
                 'Type':['Psychic'],'Weakness':{'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Pound':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Synchronoise':{'Type':"Psychic",'cat':"special",'pwr':70,'acc':100,'pp':15},
+                'Zen Headbutt':{'Type':"Psychic",'cat':"physical",'pwr':80,'acc':90,'pp':15},
+                'Psyshock':{'Type':"Psychic",'cat':"special",'pwr':80,'acc':100,'pp':10},
+                'Psybeam':{'Type':"Psychic",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Future Sight':{'Type':"Psychic",'cat':"special",'pwr':100,'acc':100,'pp':10},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Krabby":
                 {'Hp':30,'Atk':105,'Def':90,'Sp.Atk':25,'Sp.Def':25,'Speed':50,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Bubble':{'Type':"Water",'cat':"special",'pwr':20,'acc':100,'pp':30},
+                'Vice Grip':{'Type':"Normal",'cat':"physical",'pwr':55,'acc':100,'pp':30},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Metal Claw':{'Type':"Steel",'cat':"physical",'pwr':50,'acc':95,'pp':35},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Crabhammer':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10}
                 }},
             "Kingler":
                 {'Hp':55,'Atk':130,'Def':115,'Sp.Atk':50,'Sp.Def':50,'Speed':75,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Bubble':{'Type':"Water",'cat':"special",'pwr':20,'acc':100,'pp':30},
+                'Vice Grip':{'Type':"Normal",'cat':"physical",'pwr':55,'acc':100,'pp':30},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Metal Claw':{'Type':"Steel",'cat':"physical",'pwr':50,'acc':95,'pp':35},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Crabhammer':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10}
                 }},
             "Voltorb":
                 {'Hp':40,'Atk':30,'Def':50,'Sp.Atk':55,'Sp.Def':55,'Speed':100,
                 'Type':['Electric'],'Weakness':{'Ground':2},
                 'Immune':{},'Resistant':{'Flying':1/2,'Steel':1/2,'Electric':1/2},
                 'Moves':{
-                'Move':
+                'Tackle':{'Type':"Normal",'cat':"special",'pwr':50,'acc':100,'pp':35},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Electro Ball':{'Type':"Electric",'cat':"special",'pwr':60,'acc':100,'pp':10},
+                'Charge Beam':{'Type':"Electric",'cat':"physical",'pwr':50,'acc':90,'pp':10},
+                'Spark':{'Type':"Electric",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Selfdestruct':{'Type':"Normal",'cat':"physical",'pwr':200,'acc':100,'pp':5},
+                'Swift':{'Type':"Normal",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Gyro Ball':{'Type':"Steel",'cat':"physical",'pwr':60,'acc':100,'pp':5},
+                'Explosion':{'Type':"Normal",'cat':"special",'pwr':250,'acc':100,'pp':5}
                 }},
             "Electrode":
                 {'Hp':60,'Atk':50,'Def':70,'Sp.Atk':80,'Sp.Def':80,'Speed':150,
                 'Type':['Electric'],'Weakness':{'Ground':2},
                 'Immune':{},'Resistant':{'Flying':1/2,'Steel':1/2,'Electric':1/2},
                 'Moves':{
-                'Move':
+                'Tackle':{'Type':"Normal",'cat':"special",'pwr':50,'acc':100,'pp':35},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Electro Ball':{'Type':"Electric",'cat':"special",'pwr':60,'acc':100,'pp':10},
+                'Charge Beam':{'Type':"Electric",'cat':"physical",'pwr':50,'acc':90,'pp':10},
+                'Spark':{'Type':"Electric",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Selfdestruct':{'Type':"Normal",'cat':"physical",'pwr':200,'acc':100,'pp':5},
+                'Swift':{'Type':"Normal",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Gyro Ball':{'Type':"Steel",'cat':"physical",'pwr':60,'acc':100,'pp':5},
+                'Explosion':{'Type':"Normal",'cat':"special",'pwr':250,'acc':100,'pp':5}
                 }},
             "Exeggcute":
                 {'Hp':60,'Atk':40,'Def':80,'Sp.Atk':60,'Sp.Def':45,'Speed':40,
                 'Type':['Grass','Psychic'],'Weakness':{'Bug':4,'Ghost':2,'Dark':2,'Poison':2,'Ice':2,'Flying':2,'Fire':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Psychic':1/2,'Electric':1/2,'Ground':1/2,'Water':1/2,'Grass':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Barrage':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Uproar':{'Type':"Normal",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Bullet Seed':{'Type':"Grass",'cat':"physical",'pwr':25,'acc':100,'pp':30},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Solar Beam':{'Type':"Grass",'cat':"special",'pwr':120,'acc':100,'pp':10},
+                'Extrasensory':{'Type':"Psychic",'cat':"special",'pwr':80,'acc':100,'pp':30},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Exeggutor":
                 {'Hp':95,'Atk':105,'Def':85,'Sp.Atk':125,'Sp.Def':75,'Speed':45,
                 'Type':['Grass','Psychic'],'Weakness':{'Bug':4,'Ghost':2,'Dark':2,'Poison':2,'Ice':2,'Flying':2,'Fire':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Psychic':1/2,'Electric':1/2,'Ground':1/2,'Water':1/2,'Grass':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Barrage':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Seed Bomb':{'Type':"Grass",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Psyshock':{'Type':"Psychic",'cat':"special",'pwr':80,'acc':100,'pp':10},
+                'Egg Bomb':{'Type':"Normal",'cat':"physical",'pwr':100,'acc':75,'pp':10},
+                'Wodd Hammer':{'Type':"Grass",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Leaf Storm':{'Type':"Grass",'cat':"special",'pwr':140,'acc':90,'pp':5}
                 }},
             "Cubone":
                 {'Hp':50,'Atk':50,'Def':95,'Sp.Atk':40,'Sp.Def':50,'Speed':35,
                 'Type':['Ground'],'Weakness':{'Water':2,'Grass':2,'Ice':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/2,'Rock':1/2},
                 'Moves':{
-                'Move':
+                'Bone Club':{'Type':"Ground",'cat':"physical",'pwr':65,'acc':85,'pp':20},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Bonemerang':{'Type':"Ground",'cat':"physical",'pwr':50,'acc':90,'pp':10},
+                'Rage':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'False Swipe':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':40},
+                'Thrash':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':20},
+                'Bone Rush':{'Type':"Ground",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Retaliate':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':5}
                 }},
             "Marowak":
                 {'Hp':60,'Atk':80,'Def':110,'Sp.Atk':50,'Sp.Def':80,'Speed':45,
                 'Type':['Ground'],'Weakness':{'Water':2,'Grass':2,'Ice':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/2,'Rock':1/2},
                 'Moves':{
-                'Move':
+                'Bone Club':{'Type':"Ground",'cat':"physical",'pwr':65,'acc':85,'pp':20},
+                'Headbutt':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Bonemerang':{'Type':"Ground",'cat':"physical",'pwr':50,'acc':90,'pp':10},
+                'Rage':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'False Swipe':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':40},
+                'Thrash':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':20},
+                'Bone Rush':{'Type':"Ground",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15},
+                'Retaliate':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':5}
                 }},
             "Hitmonlee":
                 {'Hp':50,'Atk':120,'Def':53,'Sp.Atk':35,'Sp.Def':110,'Speed':87,
                 'Type':['Fighting'],'Weakness':{'Flying':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Rock':1/2,'Bug':1/2,'Dark':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Revenge':{'Type':"Fighing",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Double Kick':{'Type':"Fighing",'cat':"physical",'pwr':30,'acc':100,'pp':30},
+                'Rolling Kick':{'Type':"Fighing",'cat':"physical",'pwr':60,'acc':85,'pp':15},
+                'Jump Kick':{'Type':"Fighing",'cat':"physical",'pwr':100,'acc':95,'pp':10},
+                'Brick Break':{'Type':"Fighing",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Feint':{'Type':"Normal",'cat':"physical",'pwr':30,'acc':100,'pp':10},
+                'High Jump Kick':{'Type':"Fighing",'cat':"physical",'pwr':130,'acc':90,'pp':10},
+                'Blaze Kick':{'Type':"Fire",'cat':"physical",'pwr':85,'acc':90,'pp':10},
+                'Mega Kick':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':75,'pp':5},
+                'Close Combat':{'Type':"Fighing",'cat':"physical",'pwr':120,'acc':100,'pp':5}
                 }},
             "Hitmonchan":
                 {'Hp':50,'Atk':105,'Def':79,'Sp.Atk':35,'Sp.Def':110,'Speed':76,
                 'Type':['Fighting'],'Weakness':{'Flying':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Rock':1/2,'Bug':1/2,'Dark':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Revenge':{'Type':"Fighing",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Comet Punch':{'Type':"Normal",'cat':"physical",'pwr':18,'acc':85,'pp':15},
+                'Pursuit':{'Type':"Fighing",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Mach Punch':{'Type':"Fighing",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Bullet Punch':{'Type':"Steel",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Feint':{'Type':"Normal",'cat':"physical",'pwr':30,'acc':100,'pp':10},
+                'Vacuum Wave':{'Type':"Fighing",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Thunder Punch':{'Type':"Electric",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Ice Punch':{'Type':"Ice",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Fire Punch':{'Type':"Fire",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Sky Uppercut':{'Type':"Fighing",'cat':"physical",'pwr':85,'acc':90,'pp':15},
+                'Mega Punch':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':85,'pp':20},
+                'Focus Punch':{'Type':"Fighing",'cat':"physical",'pwr':150,'acc':100,'pp':20},
+                'Close Combat':{'Type':"Fighing",'cat':"physical",'pwr':120,'acc':100,'pp':5}
                 }},
             "Lickitung":
                 {'Hp':90,'Atk':55,'Def':75,'Sp.Atk':60,'Sp.Def':75,'Speed':30,
                 'Type':['Normal'],'Weakness':{'Fighting':2},
                 'Immune':{'Ghost':0},'Resistant':{},
                 'Moves':{
-                'Move':
+                'Lick':{'Type':"Ghost",'cat':"physical",'pwr':20,'acc':100,'pp':30},
+                'Knock Off':{'Type':"Dark",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Chip Away':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Power Whip':{'Type':"Grass",'cat':"physical",'pwr':120,'acc':85,'pp':10}
                 }},
             "Koffing":
                 {'Hp':40,'Atk':65,'Def':95,'Sp.Atk':60,'Sp.Def':45,'Speed':35,
                 'Type':['Poison'],'Weakness':{'Ground':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Poison':1/2,'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Move'
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Smog':{'Type':"Poison",'cat':"special",'pwr':20,'acc':70,'pp':20},
+                'Sludge Bomb':{'Type':"Poison",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Sludge':{'Type':"Poison",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Assurance':{'Type':"Dark",'cat':"physical",'pwr':50,'acc':100,'pp':10},
+                'Clear Smog':{'Type':"Poison",'cat':"special",'pwr':50,'acc':100,'pp':15},
+                'Selfdestruct':{'Type':"Normal",'cat':"physical",'pwr':200,'acc':100,'pp':5},
+                'Gyro Ball':{'Type':"Steel",'cat':"physical",'pwr':80,'acc':100,'pp':5},
+                'Explosion':{'Type':"Normal",'cat':"physical",'pwr':250,'acc':100,'pp':5}
                 }},
             "Weezing":
                 {'Hp':65,'Atk':90,'Def':120,'Sp.Atk':85,'Sp.Def':70,'Speed':60,
                 'Type':['Poison'],'Weakness':{'Ground':2,'Psychic':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Poison':1/2,'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Move'
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Smog':{'Type':"Poison",'cat':"special",'pwr':20,'acc':70,'pp':20},
+                'Sludge Bomb':{'Type':"Poison",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Sludge':{'Type':"Poison",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Assurance':{'Type':"Dark",'cat':"physical",'pwr':50,'acc':100,'pp':10},
+                'Clear Smog':{'Type':"Poison",'cat':"special",'pwr':50,'acc':100,'pp':15},
+                'Double Hit':{'Type':"Normal",'cat':"physical",'pwr':35,'acc':90,'pp':10},
+                'Gyro Ball':{'Type':"Steel",'cat':"physical",'pwr':80,'acc':100,'pp':5},
+                'Explosion':{'Type':"Normal",'cat':"physical",'pwr':250,'acc':100,'pp':5}
                 }},
             "Rhyhorn":
                 {'Hp':80,'Atk':85,'Def':95,'Sp.Atk':30,'Sp.Def':30,'Speed':25,
                 'Type':['Rock','Ground'],'Weakness':{'Water':4,'Grass':4,'Ice':2,'Ground':2,'Fighting':2,'Steel':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/4,'Rock':1/2,'Flying':1/2,'Normal':1/2,'Fire':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Rock Blast':{'Type':"Rock",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Horn Attack':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':25},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Bulldoze':{'Type':"Ground",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Chip Away':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Take Down':{'Type':"Normal",'cat':"special",'pwr':90,'acc':85,'pp':20},
+                'Drill Run':{'Type':'Ground','cat':'physical','pwr':80,'acc':95,'pp':10},
+                'Stone Edge':{'Type':'Rock','cat':'physical','pwr':100,'acc':80,'pp':5},
+                'Earthquake':{'Type':'Ground','cat':'physical','pwr':100,'acc':100,'pp':10},
+                'Megahorn':{'Type':'Bug','cat':'physical','pwr':120,'acc':85,'pp':10}
                 }},
             "Rhydon":
                 {'Hp':105,'Atk':130,'Def':120,'Sp.Atk':45,'Sp.Def':45,'Speed':40,
                 'Type':['Rock','Ground'],'Weakness':{'Water':4,'Grass':4,'Ice':2,'Ground':2,'Fighting':2,'Steel':2},
                 'Immune':{'Electric':0},'Resistant':{'Poison':1/4,'Rock':1/2,'Flying':1/2,'Normal':1/2,'Fire':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Stomp':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':20},
+                'Rock Blast':{'Type':"Rock",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Horn Attack':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':25},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Bulldoze':{'Type':"Ground",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Chip Away':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Take Down':{'Type':"Normal",'cat':"special",'pwr':90,'acc':85,'pp':20},
+                'Hammer Arm':{'Type':'Fighting','cat':'physical','pwr':100,'acc':90,'pp':10},
+                'Drill Run':{'Type':'Ground','cat':'physical','pwr':80,'acc':95,'pp':10},
+                'Stone Edge':{'Type':'Rock','cat':'physical','pwr':100,'acc':80,'pp':5},
+                'Earthquake':{'Type':'Ground','cat':'physical','pwr':100,'acc':100,'pp':10},
+                'Megahorn':{'Type':'Bug','cat':'physical','pwr':120,'acc':85,'pp':10}
                 }},
             "Chansey":
                 {'Hp':250,'Atk':5,'Def':5,'Sp.Atk':35,'Sp.Def':105,'Speed':50,
                 'Type':['Normal'],'Weakness':{'Fighting':2},
                 'Immune':{'Ghost':0},'Resistant':{},
                 'Moves':{
-                'Move':
+                'Pound':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Double Slap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':10},
+                'Take Down':{'Type':"Normal",'cat':"physical",'pwr':90,'acc':85,'pp':20},
+                'Egg Bomb':{'Type':"Normal",'cat':"physical",'pwr':100,'acc':75,'pp':10},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15}
                 }},
             "Tangela":
                 {'Hp':65,'Atk':55,'Def':115,'Sp.Atk':100,'Sp.Def':40,'Speed':60,
                 'Type':['Grass'],'Weakness':{'Flying':2,'Fire':2,'Poison':2,'Ice':2,'Bug':2},
                 'Immune':{},'Resistant':{'Ground':1/2,'Water':1/2,'Grass':1/2,'Electric':1/2},
                 'Moves':{
-                'Move':
+                'Constrict':{'Type':"Normal",'cat':"physical",'pwr':10,'acc':100,'pp':35},
+                'Vine Whip':{'Type':"Grass",'cat':"physical",'pwr':35,'acc':100,'pp':15},
+                'Absorb':{'Type':"Grass",'cat':"special",'pwr':20,'acc':100,'pp':25},
+                'Bind':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Mega Drain':{'Type':"Grass",'cat':"special",'pwr':40,'acc':100,'pp':15},
+                'Knock Off':{'Type':"Dark",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Giga Drain':{'Type':"Grass",'cat':"special",'pwr':75,'acc':100,'pp':10},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Power Whip':{'Type':"Grass",'cat':"physical",'pwr':120,'acc':85,'pp':10}
                 }},
             "Kangaskhan":
                 {'Hp':105,'Atk':95,'Def':80,'Sp.Atk':40,'Sp.Def':80,'Speed':90,
                 'Type':['Normal'],'Weakness':{'Fighting':2},
                 'Immune':{'Ghost':0},'Resistant':{},
                 'Moves':{
-                'Move':
+                'Comet':{'Type':"Normal",'cat':"physical",'pwr':18,'acc':85,'pp':15},
+                'Fake Out':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':85,'pp':10},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':85,'pp':25},
+                'Double Hit':{'Type':"Normal",'cat':"physical",'pwr':35,'acc':90,'pp':10},
+                'Rage':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Mega Punch':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':85,'pp':20},
+                'Chip Away':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Dizzy Punch':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':10},
+                'Crunch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Outrage':{'Type':"Dragon",'cat':"physical",'pwr':120,'acc':100,'pp':10},
+                'Sucker Punch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':5}
                 }},
             "Horsea":
                 {'Hp':30,'Atk':40,'Def':70,'Sp.Atk':70,'Sp.Def':25,'Speed':60,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Bubble':{'Type':"Water",'cat':"special",'pwr':20,'acc':100,'pp':30},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Dragon Pulse':{'Type':"Dragon",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Seadra":
                 {'Hp':55,'Atk':65,'Def':95,'Sp.Atk':95,'Sp.Def':45,'Speed':85,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Bubble':{'Type':"Water",'cat':"special",'pwr':20,'acc':100,'pp':30},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Dragon Pulse':{'Type':"Dragon",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Goldeen":
                 {'Hp':45,'Atk':67,'Def':60,'Sp.Atk':35,'Sp.Def':50,'Speed':63,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Horn Attack':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':25},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Waterfall':{'Type':"Water",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Megahorn':{'Type':"Bug",'cat':"physical",'pwr':120,'acc':85,'pp':10}
                 }},
             "Seaking":
                 {'Hp':80,'Atk':92,'Def':65,'Sp.Atk':65,'Sp.Def':80,'Speed':68,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Poison Jab':{'Type':"Poison",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Horn Attack':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':25},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Fury Attack':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Waterfall':{'Type':"Water",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Megahorn':{'Type':"Bug",'cat':"physical",'pwr':120,'acc':85,'pp':10}
                 }},
             "Staryu":
                 {'Hp':30,'Atk':45,'Def':55,'Sp.Atk':70,'Sp.Def':55,'Speed':85,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Rapid Spin':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':40},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Swift':{'Type':"Normal",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Power Gem':{'Type':"Rock",'cat':"special",'pwr':70,'acc':100,'pp':20}
                 }},
             "Starmie":
                 {'Hp':60,'Atk':75,'Def':85,'Sp.Atk':100,'Sp.Def':85,'Speed':115,
                 'Type':['Water','Psychic'],'Weakness':{'Grass':2,'Electric':2,'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2,'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Bubble Beam':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Rapid Spin':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':40},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Swift':{'Type':"Normal",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Power Gem':{'Type':"Rock",'cat':"special",'pwr':70,'acc':100,'pp':20}
                 }},
             "Mr.Mime":
                 {'Hp':40,'Atk':45,'Def':65,'Sp.Atk':100,'Sp.Def':120,'Speed':90,
                 'Type':['Psychic'],'Weakness':{'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Magic Leaf':{'Type':"Grass",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Double Slap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':10},
+                'Psybeam':{'Type':"Psychic",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10}
                 }},
             "Scyther":
                 {'Hp':70,'Atk':110,'Def':80,'Sp.Atk':55,'Sp.Def':80,'Speed':105,
                 'Type':['Bug','Flying'],'Weakness':{'Flying':2,'Rock':4,'Fire':2,'Electric':2,'Ice':2},
                 'Immune':{'Ground':0},'Resistant':{'Fighting':1/4,'Bug':1/2,'Grass':1/4},
                 'Moves':{
-                'Move':
+                'Vacuum Wave':{'Type':"Fighting",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'False Swipe':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':40},
+                'Wing Attack':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':35},
+                'Fury Cutter':{'Type':"Bug",'cat':"physical",'pwr':20,'acc':95,'pp':20},
+                'Slash':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Razor Wind':{'Type':"Normal",'cat':"special",'pwr':80,'acc':100,'pp':10},
+                'X-Scissor':{'Type':"Bug",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Night Slash':{'Type':"Dark",'cat':"physical",'pwr':70,'acc':100,'pp':15},
+                'Double Hit':{'Type':"Normal",'cat':"physical",'pwr':35,'acc':90,'pp':10},
+                'Air Slash':{'Type':"Flying",'cat':"special",'pwr':75,'acc':95,'pp':20},
+                'Feint':{'Type':"Normal",'cat':"physical",'pwr':30,'acc':100,'pp':10}
                 }},
             "Jynx":
                 {'Hp':65,'Atk':50,'Def':35,'Sp.Atk':115,'Sp.Def':95,'Speed':95,
                 'Type':['Ice','Psychic'],'Weakness':{'Bug':2,'Ghost':2,'Dark':2,'Steel':2,'Rock':2,'Fire':2},
                 'Immune':{},'Resistant':{'Ice':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Pound':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Lick':{'Type':"Ghost",'cat':"physical",'pwr':20,'acc':100,'pp':30},
+                'Powder Snow':{'Type':"Ice",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Double Slap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':85,'pp':10},
+                'Ice Punch':{'Type':"Ice",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Heart Stamp':{'Type':"Psychic",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Wake-Up Slap':{'Type':"Fighting",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Avalanche':{'Type':"Ice",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Body Slam':{'Type':"Normal",'cat':"physical",'pwr':85,'acc':100,'pp':15},
+                'Blizzard':{'Type':"Ice",'cat':"special",'pwr':120,'acc':70,'pp':5}
                 }},
             "Electabuzz":
                 {'Hp':65,'Atk':83,'Def':57,'Sp.Atk':95,'Sp.Def':85,'Speed':105,
                 'Type':['Electric'],'Weakness':{'Ground':2},
                 'Immune':{},'Resistant':{'Flying':1/2,'Steel':1/2,'Electric':1/2},
                 'Moves':{
-                'Move':
+                'Thunder Shock':{'Type':"Electric",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Electro Ball':{'Type':"Electric",'cat':"special",'pwr':60,'acc':100,'pp':10},
+                'Low Kick':{'Type':"Fighting",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Swift':{'Type':"Normal",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Shock Wave':{'Type':"Electric",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Discharge':{'Type':"Electric",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Thunder Punch':{'Type':"Electric",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Thunderbolt':{'Type':"Electric",'cat':"special",'pwr':90,'acc':100,'pp':15},
+                'Thunder':{'Type':"Electric",'cat':"special",'pwr':110,'acc':70,'pp':10}
                 }},
             "Magmar":
                 {'Hp':65,'Atk':95,'Def':57,'Sp.Atk':100,'Sp.Def':85,'Speed':93,
                 'Type':['Fire'],'Weakness':{'Ground':2,'Rock':2,'Water':2},
                 'Immune':{},'Resistant':{'Bug':1/2,'Steel':1/2,'Fire':1/2,'Grass':1/2,'Ice':1/2},
                 'Moves':{
-                'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Smog':{'Type':"Poison",'cat':"special",'pwr':20,'acc':70,'pp':20},
+                'Ember':{'Type':"Fire",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Faint Attack':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Fire Spin':{'Type':"Fire",'cat':"special",'pwr':35,'acc':85,'pp':15},
+                'Clear Smog':{'Type':"Poison",'cat':"special",'pwr':50,'acc':100,'pp':15},
+                'Flame Burst':{'Type':"Fire",'cat':"special",'pwr':70,'acc':100,'pp':15},
+                'Fire Punch':{'Type':"Fire",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Lava Plume':{'Type':"Fire",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Flamethrower':{'Type':"Fire",'cat':"special",'pwr':95,'acc':100,'pp':15},
+                'Fire Blast':{'Type':"Fire",'cat':"special",'pwr':120,'acc':85,'pp':5}
                 }},
             "Pinsir":
                 {'Hp':65,'Atk':125,'Def':100,'Sp.Atk':55,'Sp.Def':70,'Speed':85,
                 'Type':['Bug'],'Weakness':{'Flying':2,'Rock':2,'Fire':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Ground':1/2,'Grass':1/2},
                 'Moves':{
-                'Move':
+                'Vice Grip':{'Type':"Fighing",'cat':"physical",'pwr':55,'acc':100,'pp':30},
+                'Bind':{'Type':"Fighing",'cat':"physical",'pwr':15,'acc':85,'pp':20},
+                'Brick Break':{'Type':"Fighing",'cat':"physical",'pwr':75,'acc':100,'pp':15},
+                'Seismic Toss':{'Type':"Fighing",'cat':"physical",'pwr':50,'acc':100,'pp':20},
+                'Revenge':{'Type':"Fighing",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Vital Throw':{'Type':"Fighing",'cat':"physical",'pwr':70,'acc':100,'pp':10},
+                'Submission':{'Type':"Fighing",'cat':"physical",'pwr':80,'acc':80,'pp':25},
+                'X-Scissor':{'Type':"Fighing",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Storm Throw':{'Type':"Fighing",'cat':"physical",'pwr':40,'acc':100,'pp':10},
+                'Thrash':{'Type':"Fighing",'cat':"physical",'pwr':120,'acc':100,'pp':10},
+                'Super Power':{'Type':"Fighing",'cat':"physical",'pwr':120,'acc':100,'pp':5}
                 }},
             "Tauros":
                 {'Hp':75,'Atk':100,'Def':95,'Sp.Atk':40,'Sp.Def':70,'Speed':110,
                 'Type':['Normal'],'Weakness':{'Fighting':2},
                 'Immune':{'Ghost':0},'Resistant':{},
                 'Moves':{
-                'Move':
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Rage':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':20},
+                'Horn Attack':{'Type':"Normal",'cat':"physical",'pwr':65,'acc':100,'pp':25},
+                'Pursuit':{'Type':"Dark",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Payback':{'Type':"Dark",'cat':"physical",'pwr':50,'acc':100,'pp':10},
+                'Zen Headbutt':{'Type':"Psychic",'cat':"physical",'pwr':80,'acc':90,'pp':15},
+                'Take Down':{'Type':"Normal",'cat':"special",'pwr':90,'acc':85,'pp':20},
+                'Thrash':{'Type':'Normal','cat':'physical','pwr':120,'acc':95,'pp':10},
+                'Giga Impact':{'Type':'Normal','cat':'physical','pwr':150,'acc':90,'pp':5}
                 }},
             "Magikarp":
                 {'Hp':20,'Atk':10,'Def':55,'Sp.Atk':15,'Sp.Def':20,'Speed':80,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35}
                 }},
             "Gyrados":
                 {'Hp':95,'Atk':125,'Def':79,'Sp.Atk':60,'Sp.Def':100,'Speed':81,
                 'Type':['Water','Flying'],'Weakness':{'Rock':2,'Electric':4},
                 'Immune':{},'Resistant':{'Water':1/2,'Fighting':1/2,'Bug':1/2,'Steel':1/2,'Fire':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Thrash':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':10},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Ice Fang':{'Type':"Ice",'cat':"physical",'pwr':65,'acc':95,'pp':15},
+                'Aqua Tail':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Hyper Beam':{'Type':"Normal",'cat':"special",'pwr':150,'acc':90,'pp':5}
                 }},
             "Lapras":
                 {'Hp':130,'Atk':85,'Def':80,'Sp.Atk':85,'Sp.Def':95,'Speed':60,
                 'Type':['Water','Ice'],'Weakness':{'Grass':2,'Electric':2,'Fighting':2,'Rock':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Ice':1/4},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Body Slam':{'Type':"Normal",'cat':"physical",'pwr':85,'acc':100,'pp':15},
+                'Ice Shard':{'Type':"Ice",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Ice Beam':{'Type':"Ice",'cat':"special",'pwr':95,'acc':100,'pp':10}
                 }},
-            "Ditto":
-                {'Hp':48,'Atk':48,'Def':48,'Sp.Atk':48,'Sp.Def':48,'Speed':48,
-                'Type':['Normal'],'Weakness':{'Fighting':2},
-                'Immune':{'Ghost':0},'Resistant':{},
-                'Moves':{
-                'Move':
-                }},
+            #Ditto
             "Eevee":
                 {'Hp':55,'Atk':55,'Def':50,'Sp.Atk':45,'Sp.Def':65,'Speed':55,
                 'Type':['Normal'],'Weakness':{'Fighting':2},
                 'Immune':{'Ghost':0},'Resistant':{},
                 'Moves':{
-                'Move':
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Covet':{'Type':"Normal",'cat':"physical",'pwr':60,'acc':100,'pp':40},
+                'Take Down':{'Type':"Normal",'cat':"physical",'pwr':90,'acc':100,'pp':20},
+                'Double-Edge':{'Type':"Normal",'cat':"physical",'pwr':120,'acc':100,'pp':15}
                 }},
             "Vaporeon":
                 {'Hp':130,'Atk':65,'Def':60,'Sp.Atk':110,'Sp.Def':95,'Speed':65,
                 'Type':['Water'],'Weakness':{'Grass':2,'Electric':2},
                 'Immune':{},'Resistant':{'Water':1/2,'Steel':1/2,'Fire':1/2,'Ice':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Water Pulse':{'Type':"Water",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Aurora Beam':{'Type':"Ice",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Muddy Water':{'Type':"Water",'cat':"special",'pwr':95,'acc':85,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
                 }},
             "Jolteon":
                 {'Hp':65,'Atk':65,'Def':60,'Sp.Atk':110,'Sp.Def':95,'Speed':130,
                 'Type':['Electric'],'Weakness':{'Ground':2},
                 'Immune':{},'Resistant':{'Flying':1/2,'Steel':1/2,'Electric':1/2},
                 'Moves':{
+                'Thunder Shock':{'Type':"Electric",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Quick Attack':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Double Kick':{'Type':"Fighting",'cat':"physical",'pwr':30,'acc':100,'pp':30},
+                'Thunder Fang':{'Type':"Electric",'cat':"physical",'pwr':65,'acc':95,'pp':15},
+                'Pin Missile':{'Type':"Bug",'cat':"physical",'pwr':14,'acc':85,'pp':20},
+                'Discharge':{'Type':"Electric",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Thunder':{'Type':"Electric",'cat':"special",'pwr':120,'acc':70,'pp':10}
+                }},
             "Flareon":
                 {'Hp':65,'Atk':130,'Def':60,'Sp.Atk':95,'Sp.Def':110,'Speed':65,
                 'Type':['Fire'],'Weakness':{'Ground':2,'Rock':2,'Water':2},
                 'Immune':{},'Resistant':{'Bug':1/2,'Steel':1/2,'Fire':1/2,'Grass':1/2,'Ice':1/2},
                 'Moves':{
-                'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Ember':{'Type':"Fire",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Fire Spin':{'Type':"Fire",'cat':"special",'pwr':35,'acc':85,'pp':15},
+                'Fire Fang':{'Type':"Fire",'cat':"physical",'pwr':65,'acc':95,'pp':15},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Quick Attack':{'Type':"Fire",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Smog':{'Type':"Normal",'cat':"special",'pwr':20,'acc':70,'pp':20},
+                'Lava Plume':{'Type':"Fire",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Fire Blast':{'Type':"Fire",'cat':"special",'pwr':120,'acc':85,'pp':5}
                 }},
             "Porygon":
                 {'Hp':65,'Atk':60,'Def':70,'Sp.Atk':85,'Sp.Def':75,'Speed':40,
                 'Type':['Normal'],'Weakness':{'Fighting':2},
                 'Immune':{'Ghost':0},'Resistant':{},
                 'Moves':{
-                'Move':
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Psybeam':{'Type':"Psychic",'cat':"special",'pwr':65,'acc':100,'pp':20},
+                'Signal Beam':{'Type':"Bug",'cat':"special",'pwr':75,'acc':100,'pp':15},
+                'Discharge':{'Type':"Electric",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Tri Attack':{'Type':"Normal",'cat':"special",'pwr':80,'acc':100,'pp':10},
+                'Zap Cannon':{'Type':"Electric",'cat':"special",'pwr':120,'acc':50,'pp':5}
                 }},
             "Omanyte":
                 {'Hp':35,'Atk':40,'Def':100,'Sp.Atk':90,'Sp.Def':55,'Speed':35,
                 'Type':['Rock','Water'],'Weakness':{'Grass':4,'Electric':2,'Ground':2,'Fighting':2},
                 'Immune':{},'Resistant':{'Poison':1/2,'Flying':1/2,'Fire':1/4,'Ice':1/2,'Normal':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Constrict':{'Type':"Normal",'cat':"physical",'pwr':10,'acc':100,'pp':35},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Rock Blast':{'Type':"Rock",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5}
                 }},
             "Omastar":
                 {'Hp':70,'Atk':60,'Def':125,'Sp.Atk':115,'Sp.Def':70,'Speed':55,
                 'Type':['Rock','Water'],'Weakness':{'Grass':4,'Electric':2,'Ground':2,'Fighting':2},
                 'Immune':{},'Resistant':{'Poison':1/2,'Flying':1/2,'Fire':1/4,'Ice':1/2,'Normal':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Constrict':{'Type':"Normal",'cat':"physical",'pwr':10,'acc':100,'pp':35},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Water Gun':{'Type':"Water",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Brine':{'Type':"Water",'cat':"special",'pwr':65,'acc':100,'pp':10},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Spike Cannon':{'Type':"Normal",'cat':"physical",'pwr':20,'acc':100,'pp':15},
+                'Rock Blast':{'Type':"Rock",'cat':"physical",'pwr':25,'acc':90,'pp':10},
+                'Hydro Pump':{'Type':"Water",'cat':"special",'pwr':120,'acc':80,'pp':5}
                 }},
             "Kabuto":
                 {'Hp':30,'Atk':80,'Def':90,'Sp.Atk':55,'Sp.Def':45,'Speed':55,
                 'Type':['Rock','Water'],'Weakness':{'Grass':4,'Electric':2,'Ground':2,'Fighting':2},
                 'Immune':{},'Resistant':{'Poison':1/2,'Flying':1/2,'Fire':1/4,'Ice':1/2,'Normal':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Absorb':{'Type':"Grass",'cat':"special",'pwr':20,'acc':100,'pp':25},
+                'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Aqua Jet':{'Type':"Water",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Mega Drain':{'Type':"Grass",'cat':"special",'pwr':40,'acc':100,'pp':15},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5}
                 }},
             "Kabutops":
                 {'Hp':60,'Atk':115,'Def':105,'Sp.Atk':65,'Sp.Def':70,'Speed':80,
                 'Type':['Rock','Water'],'Weakness':{'Grass':4,'Electric':2,'Ground':2,'Fighting':2},
                 'Immune':{},'Resistant':{'Poison':1/2,'Flying':1/2,'Fire':1/4,'Ice':1/2,'Normal':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Feint':{'Type':"Normal",'cat':"physical",'pwr':30,'acc':100,'pp':10},
+                'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Absorb':{'Type':"Grass",'cat':"special",'pwr':20,'acc':100,'pp':25},
+                'Mud Shot':{'Type':"Ground",'cat':"special",'pwr':55,'acc':95,'pp':15},
+                'Aqua Jet':{'Type':"Water",'cat':"physical",'pwr':40,'acc':100,'pp':20},
+                'Mega Drain':{'Type':"Grass",'cat':"special",'pwr':40,'acc':100,'pp':15},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Slash':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Night Slash':{'Type':"Dark",'cat':"physical",'pwr':70,'acc':100,'pp':15}
                 }},
             "Aerodactyl":
                 {'Hp':80,'Atk':105,'Def':65,'Sp.Atk':60,'Sp.Def':75,'Speed':130,
                 'Type':['Rock','Flying'],'Weakness':{'Rock':2,'Steel':2,'Water':2,'Electric':2,'Ice':2},
                 'Immune':{'Ground':0},'Resistant':{'Poison':1/2,'Flying':1/2,'Fire':1/2,'Bug':1/2,'Normal':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Ice Fang':{'Type':"Ice",'cat':"physical",'pwr':65,'acc':95,'pp':15},
+                'Fire Fang':{'Type':"Fire",'cat':"physical",'pwr':65,'acc':95,'pp':15},
+                'Thunder Fang':{'Type':"Electric",'cat':"physical",'pwr':65,'acc':95,'pp':15},
+                'Wing Attack':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':35},
+                'Bite':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':25},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Crunch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Take Down':{'Type':"Normal",'cat':"physical",'pwr':90,'acc':85,'pp':20},
+                'Sky Drop':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':10},
+                'Iron Head':{'Type':"Steel",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Hyper Beam':{'Type':"Normal",'cat':"special",'pwr':150,'acc':90,'pp':5},
+                'Rock Slide':{'Type':"Rock",'cat':"physical",'pwr':75,'acc':90,'pp':10},
+                'Giga Impact':{'Type':"Normal",'cat':"physical",'pwr':150,'acc':90,'pp':5}
                 }},
             "Snorlax":
                 {'Hp':160,'Atk':110,'Def':65,'Sp.Atk':65,'Sp.Def':110,'Speed':30,
                 'Type':['Normal'],'Weakness':{'Fighting':2},
                 'Immune':{'Ghost':0},'Resistant':{},
                 'Moves':{
-                'Move':
+                'Lick':{'Type':"Ghost",'cat':"physical",'pwr':20,'acc':100,'pp':30},
+                'Tackle':{'Type':"Normal",'cat':"physical",'pwr':50,'acc':100,'pp':35},
+                'Snore':{'Type':"Normal",'cat':"special",'pwr':40,'acc':100,'pp':15},
+                'Body Slam':{'Type':"Normal",'cat':"physical",'pwr':85,'acc':100,'pp':15},
+                'Crunch':{'Type':"Dark",'cat':"physical",'pwr':80,'acc':100,'pp':15},
+                'Rollout':{'Type':"Rock",'cat':"physical",'pwr':30,'acc':90,'pp':20},
+                'Chip Away':{'Type':"Normal",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Heavy Slam':{'Type':"Steel",'cat':"physical",'pwr':80,'acc':100,'pp':10},
+                'Giga Impact':{'Type':"Normal",'cat':"physical",'pwr':150,'acc':90,'pp':5}
                 }},
             "Articuno":
                 {'Hp':90,'Atk':85,'Def':100,'Sp.Atk':95,'Sp.Def':125,'Speed':85,
                 'Type':['Ice','Flying'],'Weakness':{'Steel':2,'Rock':4,'Fire':2,'Electric':2},
                 'Immune':{'Ground':0},'Resistant':{'Grass':1/2,'Bug':1/2},
                 'Moves':{
-                'Move':
+                'Gust':{'Type':"Flying",'cat':"special",'pwr':40,'acc':100,'pp':35},
+                'Powder Snow':{'Type':"Ice",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Ice Shard':{'Type':"Ice",'cat':"physical",'pwr':40,'acc':100,'pp':30},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Ice Beam':{'Type':"Ice",'cat':"special",'pwr':95,'acc':100,'pp':10},
+                'Blizzard':{'Type':"Ice",'cat':"special",'pwr':120,'acc':70,'pp':5},
+                'Hurricane':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10}
                 }},
             "Zapdos":
                 {'Hp':90,'Atk':90,'Def':85,'Sp.Atk':125,'Sp.Def':90,'Speed':100,
                 'Type':['Electric','Flying'],'Weakness':{'Ice':2,'Rock':2},
                 'Immune':{'Ground':0},'Resistant':{'Grass':1/2,'Bug':1/2,'Fighting':1/2,'Flying':1/2,'Steel':1/2},
                 'Moves':{
-                'Move':
+                'Peck':{'Type':"Flying",'cat':"physical",'pwr':35,'acc':100,'pp':35},
+                'Thunder Shock':{'Type':"Electric",'cat':"special",'pwr':40,'acc':100,'pp':30},
+                'Pluck':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Discharge':{'Type':"Electric",'cat':"special",'pwr':80,'acc':100,'pp':15},
+                'Drill Peck':{'Type':"Flying",'cat':"physical",'pwr':80,'acc':100,'pp':20},
+                'Thunder':{'Type':"Electric",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Zap Cannon':{'Type':"Electric",'cat':"special",'pwr':120,'acc':50,'pp':5}
                 }},
             "Moltres":
                 {'Hp':90,'Atk':100,'Def':90,'Sp.Atk':125,'Sp.Def':85,'Speed':90,
                 'Type':['Fire','Flying'],'Weakness':{'Rock':4,'Water':2,'Electric':2},
                 'Immune':{'Ground':0},'Resistant':{'Bug':1/4,'Steel':1/2,'Fire':1/2,'Grass':1/4,'Fighting':1/2},
                 'Moves':{
-                'Scratch':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Wing Attack':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Ember':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Fire Spin':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Ancient Power':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Flamethrower':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Air Slash':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Heat Wave':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Solar Beam':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Sky Attack':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Hurricane':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10}
                 }},
             "Dratini":
                 {'Hp':41,'Atk':64,'Def':45,'Sp.Atk':50,'Sp.Def':50,'Speed':50,
                 'Type':['Dragon'],'Weakness':{'Ice':2,'Dragon':2},
                 'Immune':{},'Resistant':{'Grass':1/2,'Fire':1/2,'Water':1/2,'Electric':1/2},
                 'Moves':{
-                'Move':
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Dragon Tail':{'Type':"Dragon",'cat':"physical",'pwr':60,'acc':90,'pp':10},
+                'Aqua Tail':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10},
+                'Dragon Rush':{'Type':"Dragon",'cat':"physical",'pwr':100,'acc':75,'pp':10},
+                'Outrage':{'Type':"Dragon",'cat':"physical",'pwr':120,'acc':100,'pp':10},
+                'Hyper Beam':{'Type':"Normal",'cat':"special",'pwr':150,'acc':90,'pp':5}
                 }},
             "Dragonair":
                 {'Hp':61,'Atk':84,'Def':65,'Sp.Atk':70,'Sp.Def':70,'Speed':70,
                 'Type':['Dragon'],'Weakness':{'Ice':2,'Dragon':2},
                 'Immune':{},'Resistant':{'Grass':1/2,'Fire':1/2,'Water':1/2,'Electric':1/2},
                 'Moves':{
-                'Move':
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Dragon Tail':{'Type':"Dragon",'cat':"physical",'pwr':60,'acc':90,'pp':10},
+                'Aqua Tail':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10},
+                'Dragon Rush':{'Type':"Dragon",'cat':"physical",'pwr':100,'acc':75,'pp':10},
+                'Outrage':{'Type':"Dragon",'cat':"physical",'pwr':120,'acc':100,'pp':10},
+                'Hyper Beam':{'Type':"Normal",'cat':"special",'pwr':150,'acc':90,'pp':5}
                 }},
             "Dragonite":
                 {'Hp':91,'Atk':134,'Def':95,'Sp.Atk':100,'Sp.Def':100,'Speed':80,
                 'Type':['Dragon','Flying'],'Weakness':{'Rock':2,'Ice':4,'Dragon':2},
                 'Immune':{'Ground':0},'Resistant':{'Grass':1/4,'Bug':1/2,'Fighting':1/2,'Fire':1/2,'Water':1/2},
                 'Moves':{
-                'Move':
+                'Wrap':{'Type':"Normal",'cat':"physical",'pwr':15,'acc':90,'pp':20},
+                'Twister':{'Type':"Dragon",'cat':"special",'pwr':40,'acc':100,'pp':20},
+                'Slam':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':75,'pp':20},
+                'Dragon Tail':{'Type':"Dragon",'cat':"physical",'pwr':60,'acc':90,'pp':10},
+                'Aqua Tail':{'Type':"Water",'cat':"physical",'pwr':90,'acc':90,'pp':10},
+                'Dragon Rush':{'Type':"Dragon",'cat':"physical",'pwr':100,'acc':75,'pp':10},
+                'Outrage':{'Type':"Dragon",'cat':"physical",'pwr':120,'acc':100,'pp':10},
+                'Hyper Beam':{'Type':"Normal",'cat':"special",'pwr':150,'acc':90,'pp':5},
+                'Fire Punch':{'Type':"Fire",'cat':"special",'pwr':75,'acc':100,'pp':15},
+                'Thunder Punch':{'Type':"Electric",'cat':"special",'pwr':75,'acc':100,'pp':15},
+                'Wing Attack':{'Type':"Flying",'cat':"special",'pwr':60,'acc':100,'pp':35},
+                'Hurricane':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10}
                 }},
             "Mewtwo":
                 {'Hp':106,'Atk':110,'Def':90,'Sp.Atk':154,'Sp.Def':90,'Speed':130,
                 'Type':['Psychic'],'Weakness':{'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Confusion':{'Type':"Psychic",'cat':"special",'pwr':50,'acc':100,'pp':25},
+                'Swift':{'Type':"Normal",'cat':"special",'pwr':60,'acc':100,'pp':20},
+                'Psycho Cut':{'Type':"Psychic",'cat':"physical",'pwr':70,'acc':100,'pp':20},
+                'Future Sight':{'Type':"Psychic",'cat':"special",'pwr':100,'acc':100,'pp':10},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Aura Sphere':{'Type':"Fighting",'cat':"special",'pwr':90,'acc':100,'pp':20},
+                'Psystrike':{'Type':"Psychic",'cat':"special",'pwr':100,'acc':100,'pp':10}
                 }},
             "Mew":
                 {'Hp':100,'Atk':100,'Def':100,'Sp.Atk':100,'Sp.Def':100,'Speed':100,
                 'Type':['Psychic'],'Weakness':{'Bug':2,'Ghost':2,'Dark':2},
                 'Immune':{},'Resistant':{'Fighting':1/2,'Psychic':1/2},
                 'Moves':{
-                'Water Sport':{'Type':"Water",'cat':"status",'pwr':0,'acc':100,'pp':35},
+                'Pound':{'Type':"Normal",'cat':"physical",'pwr':40,'acc':100,'pp':35},
+                'Mega Punch':{'Type':"Normal",'cat':"physical",'pwr':80,'acc':85,'pp':20},
+                'Psychic':{'Type':"Psychic",'cat':"special",'pwr':90,'acc':100,'pp':10},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Aura Sphere':{'Type':"Fighting",'cat':"special",'pwr':90,'acc':100,'pp':20}
                 }}
 }
-#==========================================================================================================
+#=============================================================================================================================================
 def Hp(p1): #Real Hp
     RHP = int(((((2*Pokemon[p1]['Hp'])+31)/100)*50)+50+10)
     ##RHP = int(((((2*Pokemon[p1]['Hp'])+31+Pokemon[p1]['EVs'])/100)*50)+50+10)
@@ -1605,7 +2229,7 @@ def Realstats(p1): ## stats จริงของมอน
     RS.append(SpDef(p1))
     RS.append(Speed(p1))
     return RS
-#==========================================================================================================
+#==============================================================================================================================================
 def Priority(p1,p2):
     use1 = p1[2]
     use2 = p2[2]
@@ -1652,11 +2276,10 @@ def Priority(p1,p2):
         else:
             j=0
         if use1 in i:
-            use1 = [use1,j]
+            use11 = [use1,j]
             break
         else:
-            use1 = [use1,0]
-            break
+            use11 = [use1,0]
     for i in pri:
         if i == p5p:
             j = +5
@@ -1683,12 +2306,11 @@ def Priority(p1,p2):
         else:
             j=0
         if use2 in i:
-            use2 = [use2,j]
+            use22 = [use2,j]
             break
         else:
-            use2 = [use2,0]
-            break
-    if use1[1] == use2[1]:
+            use22 = [use2,0]
+    if use11[1] == use22[1]:
         if Pokemon[p1[0]]['Speed'] > Pokemon[p2[0]]['Speed']:
             p.append(using1)
             p.append(using2)
@@ -1697,7 +2319,7 @@ def Priority(p1,p2):
             p.append(using2)
             p.append(using1)
             return p
-    elif use1[1] > use2[1]:
+    elif use11[1] > use22[1]:
         p.append(using1)
         p.append(using2)
         return p
@@ -1705,22 +2327,24 @@ def Priority(p1,p2):
         p.append(using2)
         p.append(using1)
         return p
-#=====================================================================================================================================
+#======================================================================================================================================================
 def Battle(p1,p2,p1chp,p2chp): ## Phrase ต่อสู้
-    print("Health : ",end='')
+    print(" Health : ",end='')
     print("="*int(((p1chp)/Hp(p1[0]))*20),end='')
-    print("*"*int(20-(((p1chp)/Hp(p1[0]))*20)))
+    print("*"*int(20-(((p1chp)/Hp(p1[0]))*20)),end='')
+    print('',str(p1chp)+'/'+str(Hp(p1[0])))
     for i in p1[1]:
-        print(i)
-    use1 = input("Choose your move!! :")
-    print("=================================")
-    print("Health : ",end='')
+        print('',i,'\t\tPower :',Pokemon[p1[0]]['Moves'][i]['pwr'],'\tAccuracy :',Pokemon[p1[0]]['Moves'][i]['acc'])
+    use1 = input(" Choose your move!! : ")
+    print(" ==================================================================")
+    print(" Health : ",end='')
     print("="*int(((p2chp)/Hp(p2[0]))*20),end='')
-    print("*"*int(20-(((p2chp)/Hp(p2[0]))*20)))
+    print("*"*int(20-(((p2chp)/Hp(p2[0]))*20)),end='')
+    print('',str(p2chp)+'/'+str(Hp(p2[0])))
     for i in p2[1]:
-        print(i)
-    use2 = input("Choose your opponent move!! :")
-    print("=================================")
+        print('',i,'\t\tPower :',Pokemon[p2[0]]['Moves'][i]['pwr'],'\tAccuracy :',Pokemon[p2[0]]['Moves'][i]['acc'])
+    use2 = input(" Choose your opponent move!! : ")
+    print(" ==================================================================")
     p1.append(use1)
     p2.append(use2)
     return [p1,p2]
@@ -1743,7 +2367,7 @@ def Damaging(Move,PokemonP1,PokemonP2): #PokemonP1 = ['Charizard',[Moves],[usage
     critical = movec(Move)
     if Move in PokemonP1:
         if Pokemon[PokemonP1[0]]['Moves'][Move]['Type'] in Pokemon[PokemonP1[0]]['Type']:
-            STAB = 1.5
+            STAB = 1.5 #same type attack bonus
         else:
             STAB = 1.0
         if 'Burn' in PokemonP1:
@@ -1755,6 +2379,10 @@ def Damaging(Move,PokemonP1,PokemonP2): #PokemonP1 = ['Charizard',[Moves],[usage
             damage = (((((((((2*50)/5)+2)*Type(PokemonP1[0],Move,PokemonP2[0]))*Atk(PokemonP1[0]))/Def(PokemonP2[0]))+((100*Type(PokemonP1[0],Move,PokemonP2[0]))/Pokemon[PokemonP1[0]]['Moves'][Move]['pwr']))/50))*Modifier
         else:
             damage = (((((((((2*50)/5)+2)*Type(PokemonP1[0],Move,PokemonP2[0]))*SpAtk(PokemonP1[0]))/SpDef(PokemonP2[0]))+((100*Type(PokemonP1[0],Move,PokemonP2[0]))/Pokemon[PokemonP1[0]]['Moves'][Move]['pwr']))/50))*Modifier
+        a = random.randint(1,100)
+        if Pokemon[PokemonP1[0]]['Moves'][Move]['acc'] < a:
+            print('',PokemonP2[0],'can avoid the attack!!')
+            damage = 0
         return (int(damage))
     else :
         if Pokemon[PokemonP2[0]]['Moves'][Move]['Type'] in Pokemon[PokemonP2[0]]['Type']:
@@ -1770,6 +2398,10 @@ def Damaging(Move,PokemonP1,PokemonP2): #PokemonP1 = ['Charizard',[Moves],[usage
             damage = (((((((((2*50)/5)+2)*Type(PokemonP2[0],Move,PokemonP1[0]))*Atk(PokemonP2[0]))/Def(PokemonP1[0]))+((100*Type(PokemonP2[0],Move,PokemonP1[0]))/Pokemon[PokemonP2[0]]['Moves'][Move]['pwr']))/50))*Modifier
         else :
             damage = (((((((((2*50)/5)+2)*Type(PokemonP2[0],Move,PokemonP1[0]))*SpAtk(PokemonP2[0]))/SpDef(PokemonP1[0]))+((100*Type(PokemonP2[0],Move,PokemonP1[0]))/Pokemon[PokemonP2[0]]['Moves'][Move]['pwr']))/50))*Modifier
+        a = random.randint(1,100)
+        if Pokemon[PokemonP2[0]]['Moves'][Move]['acc'] < a:
+            print('',PokemonP1[0],'can avoid the attack!!')
+            damage = 0
         return int(damage)
 #=====================================================================================================================================
 def Type(p1,usage_move,p2): ##Type Calculator
@@ -1793,27 +2425,33 @@ def MainBattle(p1,p2,p1chp,p2chp):
     for i in Respect:
         if i in p1:
             dmg = (Damaging(i,p1,p2))
-            p2chp -= (Damaging(i,p1,p2))
-            print(p1[0],'has do',(dmg),'damges!!')
-            print(p2[0],'got',p2chp,'Hp left!!')
-            print('=================================')
+            p2chp -= (dmg)
+            print("",p1[0],'has do',(dmg),'damges to',p2[0],'!!')
+            if p2chp <= 0:
+                print("",p2[0],'got 0 Hp left!!')
+            else:
+                print("",p2[0],'got',p2chp,'Hp left!!')
+            print(' ==================================================================')
             if p1chp <=0:
-                print(p2[0],'Won the battle!!')
+                print('',p2[0],'Won the battle!!')
                 break
             elif p2chp <=0:
-                print(p1[0],'Won the battle!!')
+                print('',p1[0],'Won the battle!!')
                 break
         elif i in p2:
             dmg = (Damaging(i,p1,p2))
-            p1chp -= (Damaging(i,p1,p2))
-            print(p2[0],'has do',(dmg),'damges!!')
-            print(p1[0],'got',p1chp,'Hp left!!')
-            print('=================================')
+            p1chp -= (dmg)
+            print('',p2[0],'has do',(dmg),'damges!!')
+            if p1chp <= 0:
+                print('',p1[0],'got 0 Hp left!!')
+            else:
+                print('',p1[0],'got',p1chp,'Hp left!!')
+            print(' ==================================================================')
             if p1chp <=0:
-                print(p2[0],'Won the battle!!')
+                print('',p2[0],'Won the battle!!')
                 break
             elif p2chp<=0:
-                print(p1[0],'Won the battle!!')
+                print('',p1[0],'Won the battle!!')
                 break
     if p1chp >=0 and p2chp >=0:
         p1.pop(2)
@@ -1821,72 +2459,81 @@ def MainBattle(p1,p2,p1chp,p2chp):
         MainBattle(p1,p2,p1chp,p2chp) 
 
 #======================================================================================================================
-q1 = True
+""" q1 = True
 while q1 == True:
-    p1 = input("Choose your Pokemon!! : ")
-    print('You have choose',p1,'!!!')
-    print('Base Stats:')
-    print('HP :',Pokemon[p1]['Hp'])
-    print('Atk :',Pokemon[p1]['Atk'])
-    print('Def :',Pokemon[p1]['Def'])
-    print('Sp.Atk :',Pokemon[p1]['Sp.Atk'])
-    print('Sp.Def :',Pokemon[p1]['Sp.Def'])
-    print('Speed :',Pokemon[p1]['Speed'])
-    print('Moves :')
+    print("","==================================================================")
+    p1 = input(" Choose your Pokemon!! : ")
+    print(" ==================================================================")
+    print(' You have choose',p1,'!!!')
+    print(' Base Stats:')
+    print(' HP :\t\t',Pokemon[p1]['Hp'])
+    print(' Atk :\t\t',Pokemon[p1]['Atk'])
+    print(' Def :\t\t',Pokemon[p1]['Def'])
+    print(' Sp.Atk :\t\t',Pokemon[p1]['Sp.Atk'])
+    print(' Sp.Def :\t\t',Pokemon[p1]['Sp.Def'])
+    print(' Speed :\t\t',Pokemon[p1]['Speed'])
+    print(" ==================================================================")
+    print(' Moves :')
     moves1 = Pokemon[p1]['Moves'].keys()
     for i in (moves1):
-        print(i)
-    print('Please choose 4 moves for your Pokemon.')
+        print(" "+i)
+    print(" ==================================================================")
+    print(' Please choose 4 moves from above for your Pokemon.')
     movech1 =[]
     for j in range(4):
         move = input('')
         movech1.append(move)
+    print(" ==================================================================")
     print(p1)
     for i in movech1:
         print(i)
-    confirmation2 = input("Press 'Confirm' for confirmation.\n:")
+    confirmation2 = input(" Press 'Confirm' for confirmation.\n : ")
     if confirmation2 == 'Confirm':
         q1 = False
         break
     else:
         pass
 PokemonP1 =[p1,movech1]
-print(PokemonP1)
 ##========================================================================================================
 q2 = True
 while q2 == True:
-    p2 = input("Choose your opponent Pokemon!! : ")
-    print('You have choose',p2,'!!!')
-    print('Base Stats:')
-    print('HP :',Pokemon[p2]['Hp'])
-    print('Atk :',Pokemon[p2]['Atk'])
-    print('Def :',Pokemon[p2]['Def'])
-    print('Sp.Atk :',Pokemon[p2]['Sp.Atk'])
-    print('Sp.Def :',Pokemon[p2]['Sp.Def'])
-    print('Speed :',Pokemon[p2]['Speed'])
-    print('Moves :')
+    print(" ==================================================================")
+    p2 = input(" Choose your opponent Pokemon!! : ")
+    print(" ==================================================================")
+    print(' You have choose',p2,'for your opponent !!!')
+    print(' Base Stats:')
+    print(' HP :\t\t',Pokemon[p2]['Hp'])
+    print(' Atk :\t\t',Pokemon[p2]['Atk'])
+    print(' Def :\t\t',Pokemon[p2]['Def'])
+    print(' Sp.Atk :\t\t',Pokemon[p2]['Sp.Atk'])
+    print(' Sp.Def :\t\t',Pokemon[p2]['Sp.Def'])
+    print(' Speed :\t\t',Pokemon[p2]['Speed'])
+    print(" ==================================================================")
+    print(' Moves :')
     moves2 = Pokemon[p2]['Moves'].keys()
     for i in (moves2):
-        print(i)
-    print("Please choose 4 moves for your opponent Pokemon.")
+        print(" "+i)
+    print(" ==================================================================")
+    print(" Please choose 4 moves from above for your opponent Pokemon.")
     movech2 =[]
     for j in range(4):
         move = input('')
         movech2.append(move)
+    print(" ==================================================================")
     print(p2)
     for i in movech2:
         print(i)
-    confirmation2 = input("Press 'Confirm' for confirmation.\n:")
+    confirmation2 = input(" Press 'Confirm' for confirmation.\n: ")
     if confirmation2 == 'Confirm':
         q2 = False
         break
     else:
         pass
 PokemonP2 =[p2,movech2]
-print(PokemonP2)
 print(p1,p2)
 battle_confirm=None
 while battle_confirm !='Battle':
-    battle_confirm = input("Press 'Battle' to start the battle!!\n :")
+    battle_confirm = input(" Press 'Battle' to start the battle!!\n :") """
+PokemonP1 = ['Charizard', ['Inferno', 'Flare Blitz', 'Fire Spin', 'Dragon Claw']]
+PokemonP2 = ['Cloyster', ['Ice Shard', 'Icicle Crash', 'Spike Cannon', 'Brine']]
 MainBattle(PokemonP1,PokemonP2,Hp(PokemonP1[0]),Hp(PokemonP2[0]))
-    
