@@ -1,5 +1,6 @@
 #Pokemon
 import random
+import sys,time,random
 Pokemon =   {
             "Bulbasaur":
                 {'Hp':45,'Atk':49,'Def':49,'Sp.Atk':65,'Sp.Def':65,'Speed':45,
@@ -287,7 +288,7 @@ Pokemon =   {
                 'Assurance':{'Type':"Dark",'cat':"physical",'pwr':60,'acc':100,'pp':10},
                 'Drill Peck':{'Type':"Flying",'cat':"physical",'pwr':80,'acc':100,'pp':20},
                 'Drill Run':{'Type':"Ground",'cat':"physical",'pwr':80,'acc':95,'pp':10},
-                'Pluck':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20},
+                'Pluck':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':20}
                 }},
             "Ekans":
                 {'Hp':35,'Atk':60,'Def':44,'Sp.Atk':40,'Sp.Def':54,'Speed':55,
@@ -2196,6 +2197,12 @@ Pokemon =   {
                 }}
 }
 #=============================================================================================================================================
+def print_slow(str):
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.05)
+#====================================================================================================================
 def Hp(p1): #Real Hp
     RHP = int(((((2*Pokemon[p1]['Hp'])+31)/100)*50)+50+10)
     ##RHP = int(((((2*Pokemon[p1]['Hp'])+31+Pokemon[p1]['EVs'])/100)*50)+50+10)
@@ -2319,6 +2326,16 @@ def Priority(p1,p2):
             p.append(using2)
             p.append(using1)
             return p
+        else:
+            a = random.randint(0,10)
+            if a >5:
+                p.append(using2)
+                p.append(using1)
+                return p
+            else:
+                p.append(using1)
+                p.append(using2)
+                return p
     elif use11[1] > use22[1]:
         p.append(using1)
         p.append(using2)
@@ -2329,22 +2346,52 @@ def Priority(p1,p2):
         return p
 #======================================================================================================================================================
 def Battle(p1,p2,p1chp,p2chp): ## Phrase ต่อสู้
+    print('',p1[0],':')
     print(" Health : ",end='')
     print("="*int(((p1chp)/Hp(p1[0]))*20),end='')
     print("*"*int(20-(((p1chp)/Hp(p1[0]))*20)),end='')
     print('',str(p1chp)+'/'+str(Hp(p1[0])))
     for i in p1[1]:
-        print('',i,'\t\tPower :',Pokemon[p1[0]]['Moves'][i]['pwr'],'\tAccuracy :',Pokemon[p1[0]]['Moves'][i]['acc'])
-    use1 = input(" Choose your move!! : ")
+        if len(i) < 6:
+            print('',i,'\t\tPower :',Pokemon[p1[0]]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p1[0]]['Moves'][i]['Type'],'\tCat :',Pokemon[p1[0]]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1[0]]['Moves'][i]['acc'])
+        else:
+            print('',i,'\tPower :',Pokemon[p1[0]]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p1[0]]['Moves'][i]['Type'],'\tCat :',Pokemon[p1[0]]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1[0]]['Moves'][i]['acc'])
     print(" ==================================================================")
+    s= True
+    while s == True:
+        use1 = input(" Choose your move!! : ")
+        if use1 not in p1[1]:
+            print(" This move does not exists!")
+        else:
+            s = False
+            pass
+    print(" ==================================================================")
+    time.sleep(2)
+    print('',p2[0],':')
     print(" Health : ",end='')
     print("="*int(((p2chp)/Hp(p2[0]))*20),end='')
     print("*"*int(20-(((p2chp)/Hp(p2[0]))*20)),end='')
     print('',str(p2chp)+'/'+str(Hp(p2[0])))
     for i in p2[1]:
-        print('',i,'\t\tPower :',Pokemon[p2[0]]['Moves'][i]['pwr'],'\tAccuracy :',Pokemon[p2[0]]['Moves'][i]['acc'])
-    use2 = input(" Choose your opponent move!! : ")
+        if len(i) < 6:
+            print('',i,'\t\tPower :',Pokemon[p2[0]]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p2[0]]['Moves'][i]['Type'],'\tCat :',Pokemon[p2[0]]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2[0]]['Moves'][i]['acc'])
+        else:
+            print('',i,'\tPower :',Pokemon[p2[0]]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p2[0]]['Moves'][i]['Type'],'\tCat :',Pokemon[p2[0]]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2[0]]['Moves'][i]['acc'])
     print(" ==================================================================")
+    s= True
+    while s == True:
+        use2 = input(" Choose your opponent move!! : ")
+        if use2 not in p2[1]:
+            print(" This move does not exists!")
+        else:
+            s = False
+            pass
+    print(" ==================================================================")
+    time.sleep(2)
     p1.append(use1)
     p2.append(use2)
     return [p1,p2]
@@ -2415,6 +2462,16 @@ def Type(p1,usage_move,p2): ##Type Calculator
     else:
         dmg = int(Pokemon[p1]['Moves'][usage_move]['pwr'])
     return dmg
+def TypeText(p1,usage_move,p2): ##Type Calculator
+    p1movetype = Pokemon[p1]['Moves'][usage_move]['Type'] ##ธาตุของท่าที่ตีมา
+    if p1movetype in Pokemon[p2]['Weakness']:#usage move == ชื่อท่า
+        print_slow(" It's super effective!!")
+    elif p1movetype in Pokemon[p2]['Resistant']:
+        print_slow(" It's not very effective...")
+    elif p1movetype in Pokemon[p2]['Immune']:
+        print_slow(" It's not effective...")
+    else:
+        print_slow(" It's not very effective...")
 #==========================================================================================================
 def MainBattle(p1,p2,p1chp,p2chp): 
     p1chp = p1chp #Player 1 Current Hp
@@ -2423,14 +2480,25 @@ def MainBattle(p1,p2,p1chp,p2chp):
     move1,move2 = p[0],p[1]
     Respect = Priority(move1,move2)
     for i in Respect:
+        time.sleep(2)
         if i in p1:
             dmg = (Damaging(i,p1,p2))
             p2chp -= (dmg)
-            print("",p1[0],'has do',(dmg),'damges to',p2[0],'!!')
+            if dmg == 0:
+                if Type(p1[0],i,p2[0]) == 0:
+                    TypeText(p1[0],i,p2[0])
+                    print('')
+                    print("",p1[0],'do',(dmg),'damages to',p2[0],'!!')
+                else:
+                    pass
+            else:
+                TypeText(p1[0],i,p2[0])
+                print('')
+                print("",p1[0],'do',(dmg),'damages to',p2[0],'!!')
             if p2chp <= 0:
                 print("",p2[0],'got 0 Hp left!!')
             else:
-                print("",p2[0],'got',p2chp,'Hp left!!')
+                print("",p2[0],'still got',p2chp,'Hp left!!')
             print(' ==================================================================')
             if p1chp <=0:
                 print('',p2[0],'Won the battle!!')
@@ -2441,11 +2509,21 @@ def MainBattle(p1,p2,p1chp,p2chp):
         elif i in p2:
             dmg = (Damaging(i,p1,p2))
             p1chp -= (dmg)
-            print('',p2[0],'has do',(dmg),'damges!!')
+            if dmg == 0:
+                if Type(p2[0],i,p1[0]) == 0:
+                    TypeText(p2[0],i,p1[0])
+                    print('')
+                    print("",p2[0],'do',(dmg),'damages to',p1[0],'!!')
+                else:
+                    pass
+            else:
+                TypeText(p2[0],i,p1[0])
+                print('')
+                print("",p2[0],'do',(dmg),'damages to',p1[0],'!!')
             if p1chp <= 0:
                 print('',p1[0],'got 0 Hp left!!')
             else:
-                print('',p1[0],'got',p1chp,'Hp left!!')
+                print('',p1[0],'still got',p1chp,'Hp left!!')
             print(' ==================================================================')
             if p1chp <=0:
                 print('',p2[0],'Won the battle!!')
@@ -2459,34 +2537,89 @@ def MainBattle(p1,p2,p1chp,p2chp):
         MainBattle(p1,p2,p1chp,p2chp) 
 
 #======================================================================================================================
-""" q1 = True
+count = 0
+for i in Pokemon:
+    if count != 10:
+        if len(i) <7:
+            print(i,'\t\t',end='')
+            count+=1
+        else:
+            print(i,'\t',end='')
+            count+=1
+    else: # count = 10
+        print('\n')
+        if len(i) <7:
+            print(i,'\t\t',end='')
+            count+=1
+        else:
+            print(i,'\t',end='')
+            count+=1
+        count-=10
+print('')
+q1 = True
+q = True
 while q1 == True:
-    print("","==================================================================")
-    p1 = input(" Choose your Pokemon!! : ")
+    print(" ==================================================================")
+    while q == True:
+        p1 = input(" Choose your Pokemon!! : ")
+        if p1 not in Pokemon:
+            print(" This Pokemon does not exists!")
+        else:
+            q = False
     print(" ==================================================================")
     print(' You have choose',p1,'!!!')
     print(' Base Stats:')
-    print(' HP :\t\t',Pokemon[p1]['Hp'])
-    print(' Atk :\t\t',Pokemon[p1]['Atk'])
-    print(' Def :\t\t',Pokemon[p1]['Def'])
-    print(' Sp.Atk :\t\t',Pokemon[p1]['Sp.Atk'])
-    print(' Sp.Def :\t\t',Pokemon[p1]['Sp.Def'])
-    print(' Speed :\t\t',Pokemon[p1]['Speed'])
+    print(' HP     :\t',Pokemon[p1]['Hp'])
+    print(' Atk    :\t',Pokemon[p1]['Atk'])
+    print(' Def    :\t',Pokemon[p1]['Def'])
+    print(' Sp.Atk :\t',Pokemon[p1]['Sp.Atk'])
+    print(' Sp.Def :\t',Pokemon[p1]['Sp.Def'])
+    print(' Speed  :\t',Pokemon[p1]['Speed'])
     print(" ==================================================================")
+    time.sleep(2)
     print(' Moves :')
     moves1 = Pokemon[p1]['Moves'].keys()
     for i in (moves1):
-        print(" "+i)
+        if len(i) < 6:
+            print('',i,'\t\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
+            if len(str(Pokemon[p1][i]['Type'])) < 8:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
+            else:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
+        else:
+            print('',i,'\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
+            if len(i['Type']) < 8:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
+            else:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
     print(" ==================================================================")
     print(' Please choose 4 moves from above for your Pokemon.')
     movech1 =[]
     for j in range(4):
-        move = input('')
-        movech1.append(move)
+        s= True
+        while s == True:
+            move = input(' ')
+            if move not in Pokemon[p1]['Moves']:
+                print(" This move does not exists!")
+            else:
+                s = False
+                movech1.append(move)
     print(" ==================================================================")
-    print(p1)
+    time.sleep(1)
+    print('',p1,"moveset :")
     for i in movech1:
-        print(i)
+        if len(i) < 6:
+            print('',i,'\t\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
+            if len(i['Type']) < 8:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
+            else:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
+        else:
+            print('',i,'\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
+            if len(i['Type']) < 8:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
+            else:
+                print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
     confirmation2 = input(" Press 'Confirm' for confirmation.\n : ")
     if confirmation2 == 'Confirm':
         q1 = False
@@ -2496,33 +2629,57 @@ while q1 == True:
 PokemonP1 =[p1,movech1]
 ##========================================================================================================
 q2 = True
+q = True
 while q2 == True:
     print(" ==================================================================")
-    p2 = input(" Choose your opponent Pokemon!! : ")
+    while q == True:
+        p2 = input(" Choose your opponent's Pokemon!! : ")
+        if p2 not in Pokemon:
+            print(" This Pokemon does not exists!")
+        else:
+            q = False
     print(" ==================================================================")
     print(' You have choose',p2,'for your opponent !!!')
     print(' Base Stats:')
-    print(' HP :\t\t',Pokemon[p2]['Hp'])
-    print(' Atk :\t\t',Pokemon[p2]['Atk'])
-    print(' Def :\t\t',Pokemon[p2]['Def'])
-    print(' Sp.Atk :\t\t',Pokemon[p2]['Sp.Atk'])
-    print(' Sp.Def :\t\t',Pokemon[p2]['Sp.Def'])
-    print(' Speed :\t\t',Pokemon[p2]['Speed'])
+    print(' HP     :\t',Pokemon[p2]['Hp'])
+    print(' Atk    :\t',Pokemon[p2]['Atk'])
+    print(' Def    :\t',Pokemon[p2]['Def'])
+    print(' Sp.Atk :\t',Pokemon[p2]['Sp.Atk'])
+    print(' Sp.Def :\t',Pokemon[p2]['Sp.Def'])
+    print(' Speed  :\t',Pokemon[p2]['Speed'])
     print(" ==================================================================")
+    time.sleep(2)
     print(' Moves :')
     moves2 = Pokemon[p2]['Moves'].keys()
     for i in (moves2):
-        print(" "+i)
+        if len(i) < 6:
+            print('',i,'\t\tPower :',Pokemon[p2]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
+        else:
+            print('',i,'\tPower :',Pokemon[p2]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
     print(" ==================================================================")
     print(" Please choose 4 moves from above for your opponent Pokemon.")
     movech2 =[]
     for j in range(4):
-        move = input('')
-        movech2.append(move)
+        s = True
+        while s == True:
+            move = input(' ')
+            if move not in Pokemon[p2]['Moves']:
+                print(" This move does not exists!")
+            else:
+                s = False
+                movech2.append(move)
     print(" ==================================================================")
-    print(p2)
+    time.sleep(1)
+    print('',p2,"moveset :")
     for i in movech2:
-        print(i)
+        if len(i) < 6:
+            print('',i,'\t\tPower :',Pokemon[p2]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
+        else:
+            print('',i,'\tPower :',Pokemon[p2]['Moves'][i]['pwr'],end='')
+            print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
     confirmation2 = input(" Press 'Confirm' for confirmation.\n: ")
     if confirmation2 == 'Confirm':
         q2 = False
@@ -2530,10 +2687,16 @@ while q2 == True:
     else:
         pass
 PokemonP2 =[p2,movech2]
-print(p1,p2)
+print(" ==================================================================")
+print('',p1,'VS.',p2)
+print(" ==================================================================")
 battle_confirm=None
 while battle_confirm !='Battle':
-    battle_confirm = input(" Press 'Battle' to start the battle!!\n :") """
+    battle_confirm = input(" Press 'Battle' to start the battle!!\n : ")
+time.sleep(2)
+print(" ========================= Battle Start!! =========================")
+
+""" 
 PokemonP1 = ['Charizard', ['Inferno', 'Flare Blitz', 'Fire Spin', 'Dragon Claw']]
-PokemonP2 = ['Cloyster', ['Ice Shard', 'Icicle Crash', 'Spike Cannon', 'Brine']]
+PokemonP2 = ['Cloyster', ['Ice Shard', 'Icicle Crash', 'Spike Cannon', 'Brine']] """
 MainBattle(PokemonP1,PokemonP2,Hp(PokemonP1[0]),Hp(PokemonP2[0]))
