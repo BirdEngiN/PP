@@ -2114,15 +2114,15 @@ Pokemon =   {
                 'Type':['Fire','Flying'],'Weakness':{'Rock':4,'Water':2,'Electric':2},
                 'Immune':{'Ground':0},'Resistant':{'Bug':1/4,'Steel':1/2,'Fire':1/2,'Grass':1/4,'Fighting':1/2},
                 'Moves':{
-                'Wing Attack':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Ember':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Fire Spin':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Ancient Power':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Flamethrower':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Air Slash':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Heat Wave':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Solar Beam':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
-                'Sky Attack':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10},
+                'Wing Attack':{'Type':"Flying",'cat':"physical",'pwr':60,'acc':100,'pp':35},
+                'Ember':{'Type':"Fire",'cat':"special",'pwr':40,'acc':100,'pp':25},
+                'Fire Spin':{'Type':"Fire",'cat':"special",'pwr':35,'acc':85,'pp':15},
+                'Ancient Power':{'Type':"Rock",'cat':"special",'pwr':60,'acc':100,'pp':5},
+                'Flamethrower':{'Type':"Fire",'cat':"special",'pwr':95,'acc':100,'pp':15},
+                'Air Slash':{'Type':"Flying",'cat':"special",'pwr':75,'acc':95,'pp':20},
+                'Heat Wave':{'Type':"Fire",'cat':"special",'pwr':100,'acc':90,'pp':10},
+                'Solar Beam':{'Type':"Grass",'cat':"special",'pwr':120,'acc':100,'pp':10},
+                'Sky Attack':{'Type':"Flying",'cat':"physical",'pwr':140,'acc':90,'pp':5},
                 'Hurricane':{'Type':"Flying",'cat':"special",'pwr':120,'acc':70,'pp':10}
                 }},
             "Dratini":
@@ -2202,7 +2202,7 @@ def print_slow(str):
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.05)
-#====================================================================================================================
+#=============================================================================================================================================
 def Hp(p1): #Real Hp
     RHP = int(((((2*Pokemon[p1]['Hp'])+31)/100)*50)+50+10)
     ##RHP = int(((((2*Pokemon[p1]['Hp'])+31+Pokemon[p1]['EVs'])/100)*50)+50+10)
@@ -2627,6 +2627,7 @@ while q1 == True:
         break
     else:
         pass
+        q = True
 PokemonP1 =[p1,movech1]
 ##========================================================================================================
 q2 = True
@@ -2692,7 +2693,7 @@ while q2 == True:
         q2 = False
         break
     else:
-        pass
+        q = True
 PokemonP2 =[p2,movech2]
 print(" ==================================================================")
 print('',p1,'VS.',p2)
