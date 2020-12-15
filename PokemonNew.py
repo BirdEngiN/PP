@@ -2538,21 +2538,22 @@ def MainBattle(p1,p2,p1chp,p2chp):
 
 #======================================================================================================================
 count = 0
+print('\n ==================================================================')
 for i in Pokemon:
     if count != 10:
-        if len(i) <7:
-            print(i,'\t\t',end='')
+        if len(i) <6:
+            print('',i,'\t\t',end='')
             count+=1
         else:
-            print(i,'\t',end='')
+            print('',i,'\t',end='')
             count+=1
     else: # count = 10
         print('\n')
-        if len(i) <7:
-            print(i,'\t\t',end='')
+        if len(i) <6:
+            print('',i,'\t\t',end='')
             count+=1
         else:
-            print(i,'\t',end='')
+            print('',i,'\t',end='')
             count+=1
         count-=10
 print('')
@@ -2582,13 +2583,13 @@ while q1 == True:
     for i in (moves1):
         if len(i) < 6:
             print('',i,'\t\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
-            if len(str(Pokemon[p1][i]['Type'])) < 8:
+            if len(Pokemon[p1]['Moves'][i]['Type']) < 8:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
             else:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
         else:
             print('',i,'\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
-            if len(i['Type']) < 8:
+            if len(Pokemon[p1]['Moves'][i]['Type']) < 8:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
             else:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
@@ -2610,13 +2611,13 @@ while q1 == True:
     for i in movech1:
         if len(i) < 6:
             print('',i,'\t\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
-            if len(i['Type']) < 8:
+            if len(Pokemon[p1]['Moves'][i]['Type']) < 8:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
             else:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
         else:
             print('',i,'\tPower :',Pokemon[p1]['Moves'][i]['pwr'],end='')
-            if len(i['Type']) < 8:
+            if len(Pokemon[p1]['Moves'][i]['Type']) < 8:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
             else:
                 print('\tType :',Pokemon[p1]['Moves'][i]['Type'],'\tCat :',Pokemon[p1]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p1]['Moves'][i]['acc'])
@@ -2654,10 +2655,16 @@ while q2 == True:
     for i in (moves2):
         if len(i) < 6:
             print('',i,'\t\tPower :',Pokemon[p2]['Moves'][i]['pwr'],end='')
-            print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
+            if len(Pokemon[p2]['Moves'][i]['Type']) < 8:
+                print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
+            else:
+                print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
         else:
             print('',i,'\tPower :',Pokemon[p2]['Moves'][i]['pwr'],end='')
-            print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
+            if len(Pokemon[p2]['Moves'][i]['Type']) < 8:
+                print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\t\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
+            else:
+                print('\tType :',Pokemon[p2]['Moves'][i]['Type'],'\tCat :',Pokemon[p2]['Moves'][i]['cat'],'\tAccuracy :',Pokemon[p2]['Moves'][i]['acc'])
     print(" ==================================================================")
     print(" Please choose 4 moves from above for your opponent Pokemon.")
     movech2 =[]
